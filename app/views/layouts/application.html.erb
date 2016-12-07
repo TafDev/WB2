@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>WorkoutBuddy</title>
+    <%= csrf_meta_tags %>
+
+    <%= stylesheet_link_tag    'application', media: 'all'%>
+    <%= javascript_include_tag 'application'%>
+  </head>
+
+  <body>
+
+  <div id="login-form" class="ui stackable inverted segment">
+	  <div class="ui inverted secondary menu">
+	<div id="logo">
+		Workout Buddy
+	</div>
+		  <div class="right menu">
+			  <% if user_signed_in? %>
+					  <div id= "name">
+						  <p>Welcome <%= current_user.name || current_user.username %>! </p>
+					  </div>
+					  <div id="logout" class= "">
+						  <%= link_to "Logout", destroy_user_session_path, class: "ui inverted red basic button", method: :delete %>
+					  </div>
+					  <div id="profile-img" class="ui mini circular image">
+						  <%= image_tag current_user.image unless current_user.image.nil? %>
+					  </div>
+
+					  <% else %>
+			  <%= form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
+					  <!--<div class="ui inverted segment">-->
+						  <div class="ui inverted mini form">
+							  <div class="three fields">
+								  <div class="field">
+									  <%#= f.label :username %>
+									  <%= f.text_field :username, autofocus: true, placeholder: "username" %>
+								  </div>
+								  <div class="field">
+									  <%#= f.label :password %>
+									  <%= f.password_field :password, autocomplete: "off", placeholder: "password" %>
+								  </div>
+								  <div class="field">
+									  <%= f.submit "Log in", class: "ui submit tiny teal button"%>
+								  </div>
+							  </div>
+							  <div class="inline field">
+								  <% if devise_mapping.rememberable? -%>
+										  <div class="ui checkbox">
+											  <%= f.check_box :remember_me %>
+											  <%= f.label :remember_me %>
+										  </div>
+								  <% end -%>
+								  <div class="inline">
+									  <%= link_to "Sign in with Facebook", user_facebook_omniauth_authorize_path %>
+								  </div>
+							  </div>
+							  <% end %>
+						  </div>
+					  <!--</div>-->
+			  <% end %>
+		  </div>
+	  </div>
+  </div>
+
+  <div class="nav ui grid">
+	  <div class="ui secondary pointing menu">
+		  <div class="left menu">
+			  <% if user_signed_in? %>
+			  <a class="item">
+				  Home
+			  </a>
+			  <%= link_to "My Profile", user_profile_path(current_user.id), class: "item" %>
+			  <%= link_to "My Account", user_account_path(current_user.id), class: "item" %>
+			  <a class="item">
+				  Messages
+			  </a>
+			  <a class="item active">
+				  Friends
+			  </a>
+			  <% end %>
+		  </div>
+	  </div>
+  </div>
+
+  <p class="notice"><%= notice %></p>
+  <p class="alert"><%= alert %></p>
+
+  <%= yield %>
+  </body>
+</html>
+
+<script type="text/javascript" charset="utf-8">
+    $('.menu .item')
+        .tab()
+    ;
+</script>
