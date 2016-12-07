@@ -8,7 +8,7 @@ class User < ApplicationRecord
   has_one :profile, dependent: :destroy
   has_one :account, dependent: :destroy
 
-  after_create :make_profile #:make_account
+  after_create :make_profile, :make_account
 
   def self.new_with_session(params, session)
 	  super.tap do |user|
@@ -34,8 +34,8 @@ class User < ApplicationRecord
   def make_profile
 	  self.create_profile
   end
-  #
-  # def make_account
-	 #  self.create_account
-  # end
+
+  def make_account
+	  self.create_account
+  end
 end
