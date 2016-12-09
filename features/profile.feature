@@ -16,4 +16,12 @@ Feature: Profile
       When I click "My Profile"
       And I visit the account page for user "Barvis"
       Then I should see "Profile for Barvis"
+
+      @wip
+      Scenario: I select a profile picture
+        Given I am logged in as "Barvis"
+        And I visit "root"
+        And I click "My Profile"
+        When I click "Change Image"
+        Then I should see "image"
       

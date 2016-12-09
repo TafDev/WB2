@@ -17,6 +17,8 @@
 //$font-url: "https://fonts.googleapis.com/css?family=Josefin+Sans";
 @import "semantic-ui";
 @import "profiles";
+@import "dropzone/dropzone";
+
 #login-form {
   border-radius: 0;
 

@@ -1,3 +1,83 @@
-<div class="banner">
-	<p>Workout Buddy Profile: <%= current_user.username %></p>
+<div class="ui modal">
+	<div class="ui four cards">
+		<% current_user.profile.images.each do |image| %>
+				<a class="red card">
+					<div id= "image-<%= image.id %>" class="image select-img">
+						<%= image_tag image.image.url %>
+					</div>
+				</a>
+		<% end %>
+	</div>
 </div>
+
+<div class="banner">
+	<p>Workout Buddy Profile: <%= @user.username || @user.name %></p>
+</div>
+<br/>
+<div class="ui container">
+	<div class="ui grid">
+		<div class="row">
+			<div class="ui card">
+				<div id= "ajax-img" class="blurring dimmable image">
+
+				<div class="ui dimmer">
+						<div class="content">
+							<div class="center">
+								<div id="new-img" class="ui inverted button">Change Image</div>
+							</div>
+						</div>
+				</div>
+
+					<% if @user.image %>
+							<%= image_tag @user.image %>
+					<% else %>
+							<img src="/assets/steve.jpg">
+					<% end %>
+				</div>
+				<div class="content">
+					<div class="header">
+						<%= @user.name || @user.username %>
+					</div>
+					<div class="meta">
+						member since <%= @user.created_at.strftime("%B %Y") %>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<script type="text/javascript" charset="utf-8">
+
+	$('.select-img').on('click', function () {
+      var src = $(this).children().attr("src");
+      var id = <%= @user.id %>
+      console.log(src);
+      $.ajax({
+          method: "PATCH",
+		      url: "/users/" + id,
+		      data: {
+		          image: src
+		      },
+		      success: function (data) {
+		          console.log(data);
+				      $('.modal').modal("toggle");
+              var change = $('#ajax-img > img');
+              change.attr('src', data.image, + '?' + new Date().getTime());
+
+          }
+      })
+	});
+
+	<% if @user == current_user %>
+    $('.card .image').dimmer({
+        on: 'hover'
+    });
+
+    $('#new-img').on('click', function () {
+        $('.ui.modal').modal('show')
+        ;
+    });
+
+    <% end %>
+</script>
