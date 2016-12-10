@@ -14,16 +14,19 @@
  * require_self
  */
 
-//$font-url: "https://fonts.googleapis.com/css?family=Josefin+Sans";
 @import "semantic-ui";
 @import "profiles";
 @import "dropzone/dropzone";
+//$font-url: "https://fonts.googleapis.com/css?family=Dosis";
 
 #login-form {
   border-radius: 0;
 
 }
 
+.right {
+  float: right;
+}
 
 .init-search {
   width: 30%;

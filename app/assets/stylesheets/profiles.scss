@@ -11,10 +11,45 @@
   //height: 10%;
   p {
     font-size: 3em;
-    color: black;
+    color: white;
     font-weight: bolder;
     margin-left: 5%;
     padding: 3%;
-    font-style: italic;
+    //font-style: italic;
   }
+}
+
+#description-form {
+  display: none;
+}
+#edit-gender {
+  display: none;
+
+}
+#edit-f_level {
+  display: none;
+
+}
+
+#gender-submit {
+  display: none;
+}
+
+#level-submit {
+  display: none;
+}
+#edit-age {
+  display: none;
+
+}
+#edit-description {
+  cursor: pointer;
+}
+
+.icon {
+  cursor: pointer;
+}
+
+#age-btn {
+  display: none;
 }

@@ -17,29 +17,106 @@
 <div class="ui container">
 	<div class="ui grid">
 		<div class="row">
-			<div class="ui card">
-				<div id= "ajax-img" class="blurring dimmable image">
-
-				<div class="ui dimmer">
-						<div class="content">
-							<div class="center">
-								<div id="new-img" class="ui inverted button">Change Image</div>
+			<div class="four wide column">
+				<div class="ui card">
+					<div id= "ajax-img" class="blurring dimmable image">
+						<div class="ui dimmer">
+							<div class="content">
+								<div class="center">
+									<div id="new-img" class="ui inverted button">Change Image</div>
+								</div>
 							</div>
 						</div>
+						<% if @user.image %>
+								<%= image_tag @user.image %>
+						<% else %>
+								<img src="/assets/steve.jpg">
+						<% end %>
+					</div>
+					<div class="content">
+						<div class="header">
+							<%= @user.name || @user.username %>
+						</div>
+						<div class="meta">
+							member since <%= @user.created_at.strftime("%B %Y") %>
+						</div>
+					</div>
 				</div>
-
-					<% if @user.image %>
-							<%= image_tag @user.image %>
-					<% else %>
-							<img src="/assets/steve.jpg">
+			</div>
+			<div class="three wide column">
+				<div id="age" class="ui left icon input">
+					<% if @user == current_user %>
+						<span><%= semantic_icon('edit') %></span>
+					<% end %>
+					<p>Age: <span id="age-span"><%= @user.profile.age %></span></p>
+				</div>
+				<br>
+				<br>
+				<div id="edit-age" class="ui field form">
+					<%= form_for @profile, {url: user_profile_path(@user), remote: true} do |f| %>
+							<%= f.number_field :age%>
+							<%= f.submit id: "age-btn" %>
 					<% end %>
 				</div>
-				<div class="content">
-					<div class="header">
-						<%= @user.name || @user.username %>
+				<div id="gender" class="ui left icon input">
+					<% if @user == current_user %>
+							<span><%= semantic_icon('edit') %></span>
+					<% end %>
+					<p>Gender: <span id="gender-span"><%= @user.profile.gender %></span></p>
+				</div>
+				<br>
+				<br>
+				<div id="edit-gender" class="ui field form">
+					<%= form_for @profile, {url: user_profile_path(@user), remote: true} do |f| %>
+							<%= f.collection_select(:gender, Profile::GENDER, :to_s, :to_s,
+							                        :include_blank => true) %>
+							<%= f.submit id: "gender-submit" %>
+					<% end %>
+				</div>
+				<div id="fitness-level" class="ui left icon input">
+					<% if @user == current_user %>
+							<span><%= semantic_icon('edit') %></span>
+					<% end %>
+					<p>Fitness Level: <span id="level-span"><%= @user.profile.f_level %></span></p>
+				</div>
+				<br>
+				<br>
+				<div id="edit-f_level" class="ui field form">
+					<%= form_for @profile, {url: user_profile_path(@user), remote: true} do |f| %>
+							<%= f.collection_select(:f_level, Profile::FLEVEL, :to_s, :to_s,
+							                        :include_blank => true) %>
+							<%= f.submit id: "level-submit" %>
+					<% end %>
+				</div>
+			</div>
+
+			<div class="nine wide column">
+
+				<div class="ui top attached inverted header">
+					Description:
+					<% if @user == current_user %>
+					<div class="ui right floated icon">
+						<span id="edit-description" data-content="click to edit your description"><%= semantic_icon("edit") %></span>
 					</div>
-					<div class="meta">
-						member since <%= @user.created_at.strftime("%B %Y") %>
+							<% end %>
+				</div>
+				<div class="ui attached segment">
+					<div class="ui red ribbon label">
+						<%= semantic_icon('star') %>
+						Premium
+					</div>
+					<div id="description">
+						<br>
+						<p><%= @user.profile.description %></p>
+					</div>
+					<div id="description-form" class="ui field form">
+						<%= form_for @profile, {url: user_profile_path(@user), remote: true} do |f| %>
+								<%= f.label :edit_description %>
+								<%= f.text_area :description, rows: 2 %>
+								<br>
+								<br>
+								<%= f.submit class: "ui teal button" %>
+						<% end %>
 					</div>
 				</div>
 			</div>
@@ -48,6 +125,63 @@
 </div>
 
 <script type="text/javascript" charset="utf-8">
+
+	$('#age .edit').on('click', function () {
+			$('#edit-age').toggle();
+  });
+
+	$('#gender .edit').on('click', function () {
+      $('#edit-gender').toggle();
+  });
+
+  $('#fitness-level .edit').on('click', function () {
+      $('#edit-f_level').toggle();
+  });
+
+	$('#edit-age').on('ajax:success', function (e, data) {
+	    $('#age').css('display', 'block');
+	    $('#edit-age').css('display', 'none');
+			$('#age-span').html(data.age)
+	});
+
+	$('#edit-gender').on('change', function (e, data) {
+	    $('#gender-submit').click();
+	    $('#gender').css('display', 'block');
+      $('#edit-gender').css('display', 'none');
+	});
+
+  $('#edit-gender').on('ajax:success', function (e, data) {
+      $('#gender-span').html(data.gender);
+  });
+
+
+  $('#edit-f_level').on('change', function (e, data) {
+      $('#level-submit').click();
+      $('#fitness-level').css('display', 'block');
+      $('#edit-f_level').css('display', 'none');
+  });
+
+  $('#edit-f_level').on('ajax:success', function (e, data) {
+      $('#level-span').html(data.f_level);
+  });
+
+
+
+  $('#edit-description').popup();
+
+
+	$('#edit-description').on('click', function () {
+	    $('#description').css('display', 'none');
+	    $('#description-form').css('display', 'block');
+	});
+
+	$('#description-form').on('ajax:success', function (e, data) {
+//	    console.log(data)
+      $('#description').css('display', 'block');
+      $('#description-form').css('display', 'none');
+      $('#description').html('<br>' + data.description);
+	});
+
 
 	$('.select-img').on('click', function () {
       var src = $(this).children().attr("src");
@@ -78,6 +212,5 @@
         $('.ui.modal').modal('show')
         ;
     });
-
     <% end %>
 </script>

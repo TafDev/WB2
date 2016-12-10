@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20161208002812) do
+ActiveRecord::Schema.define(version: 20161209182820) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -32,9 +32,13 @@ ActiveRecord::Schema.define(version: 20161208002812) do
   end
 
   create_table "profiles", force: :cascade do |t|
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
+    t.datetime "created_at",  null: false
+    t.datetime "updated_at",  null: false
     t.integer  "user_id"
+    t.integer  "age"
+    t.string   "gender"
+    t.string   "f_level"
+    t.text     "description"
     t.index ["user_id"], name: "index_profiles_on_user_id", using: :btree
   end
 
