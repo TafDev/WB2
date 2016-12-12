@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20161209182820) do
+ActiveRecord::Schema.define(version: 20161211183038) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -19,6 +19,8 @@ ActiveRecord::Schema.define(version: 20161209182820) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.integer  "user_id"
+    t.string   "stripeid"
+    t.boolean  "is_premium"
     t.index ["user_id"], name: "index_accounts_on_user_id", using: :btree
   end
 
@@ -31,6 +33,15 @@ ActiveRecord::Schema.define(version: 20161209182820) do
     t.index ["profile_id"], name: "index_images_on_profile_id", using: :btree
   end
 
+  create_table "profile_sports", force: :cascade do |t|
+    t.integer  "profile_id"
+    t.integer  "sport_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["profile_id"], name: "index_profile_sports_on_profile_id", using: :btree
+    t.index ["sport_id"], name: "index_profile_sports_on_sport_id", using: :btree
+  end
+
   create_table "profiles", force: :cascade do |t|
     t.datetime "created_at",  null: false
     t.datetime "updated_at",  null: false
@@ -40,6 +51,12 @@ ActiveRecord::Schema.define(version: 20161209182820) do
     t.string   "f_level"
     t.text     "description"
     t.index ["user_id"], name: "index_profiles_on_user_id", using: :btree
+  end
+
+  create_table "sports", force: :cascade do |t|
+    t.string   "name"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
   end
 
   create_table "users", force: :cascade do |t|
@@ -66,5 +83,7 @@ ActiveRecord::Schema.define(version: 20161209182820) do
 
   add_foreign_key "accounts", "users"
   add_foreign_key "images", "profiles"
+  add_foreign_key "profile_sports", "profiles"
+  add_foreign_key "profile_sports", "sports"
   add_foreign_key "profiles", "users"
 end

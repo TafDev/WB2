@@ -22,7 +22,8 @@ gem 'figaro'
 gem 'carrierwave', '>= 1.0.0.rc', '< 2.0'
 gem 'dropzonejs-rails'
 # gem 'MiniMagick'
-
+gem 'stripe'
+gem 'react-rails'
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'

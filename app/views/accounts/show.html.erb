@@ -1,1 +1,15 @@
-Account for <%= current_user.username %>
+<div class="banner">
+	<p>Workout Buddy Account: <%= @user.username || @user.name %></p>
+</div>
+
+<div class="ui container">
+	<% if @user.account.is_premium? %>
+			<h1>Congratulations, you are already a premium member!</h1>
+			<p1>You can enjoy the benefits of your membership for a lifetime !!!</p1>
+	<% else %>
+			<h1>Sign up for premium today</h1>
+
+			<%= render 'form' %>
+	<% end %>
+
+</div>

@@ -2,7 +2,7 @@
 	<div class="ui four cards">
 		<% current_user.profile.images.each do |image| %>
 				<a class="red card">
-					<div id= "image-<%= image.id %>" class="image select-img">
+					<div id="image-<%= image.id %>" class="image select-img">
 						<%= image_tag image.image.url %>
 					</div>
 				</a>
@@ -19,7 +19,7 @@
 		<div class="row">
 			<div class="four wide column">
 				<div class="ui card">
-					<div id= "ajax-img" class="blurring dimmable image">
+					<div id="ajax-img" class="blurring dimmable image">
 						<div class="ui dimmer">
 							<div class="content">
 								<div class="center">
@@ -46,7 +46,7 @@
 			<div class="three wide column">
 				<div id="age" class="ui left icon input">
 					<% if @user == current_user %>
-						<span><%= semantic_icon('edit') %></span>
+							<span><%= semantic_icon('edit') %></span>
 					<% end %>
 					<p>Age: <span id="age-span"><%= @user.profile.age %></span></p>
 				</div>
@@ -54,7 +54,7 @@
 				<br>
 				<div id="edit-age" class="ui field form">
 					<%= form_for @profile, {url: user_profile_path(@user), remote: true} do |f| %>
-							<%= f.number_field :age%>
+							<%= f.number_field :age %>
 							<%= f.submit id: "age-btn" %>
 					<% end %>
 				</div>
@@ -88,23 +88,49 @@
 							<%= f.submit id: "level-submit" %>
 					<% end %>
 				</div>
-			</div>
 
+				<div id="sport" class="ui left icon input">
+					<% if @user == current_user %>
+							<span><%= semantic_icon('edit') %></span>
+					<% end %>
+				</div>
+
+				Sports: <span id="sport-span"><% @user.profile.sports.each do |sport| %></span>
+								<% unless sport.name.nil? %>
+									<div class="ui basic label">
+										<% if @user == current_user %>
+											<%= link_to semantic_icon('delete', id: "delete-#{sport.id}", remote: true) %>
+										<% end %>
+										<%= sport.name %>
+									</div>
+								<% end %>
+							<% end %>
+
+
+				<div id="sport-form" class="ui field form">
+					<%= form_for @sport, url: user_profile_path(@user), method: :patch, remote: true do |f| %>
+							<%= f.text_field :name %>
+							<p>Please comma seperate your hobbies e.g fun, games, love</p>
+					<% end %>
+				</div>
+				</div>
 			<div class="nine wide column">
 
 				<div class="ui top attached inverted header">
 					Description:
 					<% if @user == current_user %>
-					<div class="ui right floated icon">
-						<span id="edit-description" data-content="click to edit your description"><%= semantic_icon("edit") %></span>
-					</div>
-							<% end %>
+							<div class="ui right floated icon">
+								<span id="edit-description" data-content="click to edit your description"><%= semantic_icon("edit") %></span>
+							</div>
+					<% end %>
 				</div>
 				<div class="ui attached segment">
-					<div class="ui red ribbon label">
-						<%= semantic_icon('star') %>
-						Premium
-					</div>
+					<% if @user.account.is_premium? %>
+						<div class="ui red ribbon label">
+							<%= semantic_icon('star') %>
+							Premium
+						</div>
+						<% end %>
 					<div id="description">
 						<br>
 						<p><%= @user.profile.description %></p>
@@ -125,85 +151,114 @@
 </div>
 
 <script type="text/javascript" charset="utf-8">
+    $('.label').on('click', function (e) {
+        var id1 = e.target.id;
+        var id = id1.substring(7, 99);
+        console.log(id);
+        $.ajax({
+            type: 'delete',
+            url: '/users/' + <%= current_user.id.to_s %> +'/profile',
+            data: {
+                id: id
+            },
+            success: function (response) {
+                console.log(response);
+                $('#delete-' + response.sport_id).fadeOut();
+            }
+        });
+    });
+    $('#sport-form').on('ajax:success', function (e, data) {
+        console.log(data);
+//        debugger
+        var sports = $('#sport-span');
+        for (var i = 0; i < data.sports.length; ++i) {
+            sports.append("<p><span <span class='ui basic label'>" + data.sports[i].name + "</span></p>");
+        }
+        $('#sport-form').fadeOut();
+        sports.fadeIn();
+    });
 
-	$('#age .edit').on('click', function () {
-			$('#edit-age').toggle();
-  });
+    $('#sport .edit').on('click', function () {
+        $('#sport-form').css('display', 'block')
+    });
 
-	$('#gender .edit').on('click', function () {
-      $('#edit-gender').toggle();
-  });
+    $('#age .edit').on('click', function () {
+        $('#edit-age').toggle();
+    });
 
-  $('#fitness-level .edit').on('click', function () {
-      $('#edit-f_level').toggle();
-  });
+    $('#gender .edit').on('click', function () {
+        $('#edit-gender').toggle();
+    });
 
-	$('#edit-age').on('ajax:success', function (e, data) {
-	    $('#age').css('display', 'block');
-	    $('#edit-age').css('display', 'none');
-			$('#age-span').html(data.age)
-	});
+    $('#fitness-level .edit').on('click', function () {
+        $('#edit-f_level').toggle();
+    });
 
-	$('#edit-gender').on('change', function (e, data) {
-	    $('#gender-submit').click();
-	    $('#gender').css('display', 'block');
-      $('#edit-gender').css('display', 'none');
-	});
+    $('#edit-age').on('ajax:success', function (e, data) {
+        $('#age').css('display', 'block');
+        $('#edit-age').css('display', 'none');
+        $('#age-span').html(data.age)
+    });
 
-  $('#edit-gender').on('ajax:success', function (e, data) {
-      $('#gender-span').html(data.gender);
-  });
+    $('#edit-gender').on('change', function (e, data) {
+        $('#gender-submit').click();
+        $('#gender').css('display', 'block');
+        $('#edit-gender').css('display', 'none');
+    });
 
-
-  $('#edit-f_level').on('change', function (e, data) {
-      $('#level-submit').click();
-      $('#fitness-level').css('display', 'block');
-      $('#edit-f_level').css('display', 'none');
-  });
-
-  $('#edit-f_level').on('ajax:success', function (e, data) {
-      $('#level-span').html(data.f_level);
-  });
+    $('#edit-gender').on('ajax:success', function (e, data) {
+        $('#gender-span').html(data.gender);
+    });
 
 
+    $('#edit-f_level').on('change', function (e, data) {
+        $('#level-submit').click();
+        $('#fitness-level').css('display', 'block');
+        $('#edit-f_level').css('display', 'none');
+    });
 
-  $('#edit-description').popup();
+    $('#edit-f_level').on('ajax:success', function (e, data) {
+        $('#level-span').html(data.f_level);
+    });
 
 
-	$('#edit-description').on('click', function () {
-	    $('#description').css('display', 'none');
-	    $('#description-form').css('display', 'block');
-	});
+    $('#edit-description').popup();
 
-	$('#description-form').on('ajax:success', function (e, data) {
+
+    $('#edit-description').on('click', function () {
+        $('#description').css('display', 'none');
+        $('#description-form').css('display', 'block');
+    });
+
+    $('#description-form').on('ajax:success', function (e, data) {
 //	    console.log(data)
-      $('#description').css('display', 'block');
-      $('#description-form').css('display', 'none');
-      $('#description').html('<br>' + data.description);
-	});
+        $('#description').css('display', 'block');
+        $('#description-form').css('display', 'none');
+        $('#description').html('<br>' + data.description);
+    });
 
 
-	$('.select-img').on('click', function () {
-      var src = $(this).children().attr("src");
-      var id = <%= @user.id %>
-      console.log(src);
-      $.ajax({
-          method: "PATCH",
-		      url: "/users/" + id,
-		      data: {
-		          image: src
-		      },
-		      success: function (data) {
-		          console.log(data);
-				      $('.modal').modal("toggle");
-              var change = $('#ajax-img > img');
-              change.attr('src', data.image, + '?' + new Date().getTime());
+    $('.select-img').on('click', function () {
+        var src = $(this).children().attr("src");
+        var id = <%= @user.id %>
+            console.log(src);
+        $.ajax({
+            method: "PATCH",
+            url: "/users/" + id,
+            data: {
+                image: src
+            },
+            success: function (data) {
+                console.log(data);
+                $('.modal').modal("toggle");
+                var change = $('#ajax-img > img');
+                change.attr('src', data.image, +'?' + new Date().getTime());
 
-          }
-      })
-	});
+            }
+        })
+    });
 
-	<% if @user == current_user %>
+    <% if @user == current_user %>
     $('.card .image').dimmer({
         on: 'hover'
     });

@@ -18,6 +18,11 @@
 				</div>
 				<div class="right menu">
 					<% if user_signed_in? %>
+							<% unless current_user.account.is_premium? %>
+								<div class="link">
+									<%= link_to "get premium", user_account_path(current_user) %>
+								</div>
+							<% end %>
 							<div id= "name">
 								<p>Welcome <%= current_user.name || current_user.username %>! </p>
 							</div>
@@ -92,14 +97,11 @@
 </header>
   <p class="notice"><%= notice %></p>
   <p class="alert"><%= alert %></p>
-
   <body>
     <%= yield %>
   </body>
 </html>
 
 <script type="text/javascript" charset="utf-8">
-    $('.menu .item')
-        .tab()
-    ;
+    $('.menu .item').tab();
 </script>
