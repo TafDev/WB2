@@ -30,6 +30,11 @@ class ProfilesController < ApplicationController
 		end
 	end
 
+	def search
+		@users = User.all
+		@profiles = Profile.filter(params.slice(:gender, :f_level, :sport))
+	end
+
 	def destroy
 		@sport = current_user.profile.profile_sports.find_by(:sport_id => params[:id])
 		@sport.destroy

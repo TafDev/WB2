@@ -19,7 +19,7 @@
 				<div class="right menu">
 					<% if user_signed_in? %>
 							<% unless current_user.account.is_premium? %>
-								<div class="link">
+								<div class="item">
 									<%= link_to "get premium", user_account_path(current_user) %>
 								</div>
 							<% end %>
@@ -79,6 +79,7 @@
 								<a class="item">
 									Home
 								</a>
+								<%= link_to "Search", search_path, class: "item" %>
 								<%= link_to "My Profile", user_profile_path(current_user.id), class: "item" %>
 								<%= link_to "My Account", user_account_path(current_user.id), class: "item" %>
 								<a class="item">

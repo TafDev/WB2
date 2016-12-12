@@ -30,6 +30,16 @@
   display: none;
 
 }
+.banner {
+  max-width: 100%;
+  overflow: auto;
+  a {
+    img {
+      max-width: inherit;
+      cursor: pointer;
+    }
+  }
+}
 
 #sport-form {
   display: none;
