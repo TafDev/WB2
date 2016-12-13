@@ -1,0 +1,23 @@
+<div class="ui teal segment">
+	<div class="ui items">
+		<div class="item">
+			<a class="ui tiny image">
+				<%= image_tag profile.user.image unless profile.user.image.nil? %>
+			</a>
+			<div class="content">
+				<%= link_to profile.user.username || profile.user.name, user_profile_path(profile.user), class: "header" %>
+				<div class="description">
+					Age: <%= profile.age %><br>
+					Fitness Level: <%= profile.f_level %><br>
+					Sports: <% profile.sports.each do |sport| %>
+							<%= sport.name %>
+					<% end %>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+

@@ -1,0 +1,43 @@
+
+			<% unless current_user.account.is_premium? %>
+				<div class="premium-banner">
+					<%= link_to (image_tag '/assets/premium-banner.png'), user_account_path(current_user)%>
+				</div>
+			<% end %>
+				<h1>Advanced Search</h1>
+				<div class="ui segment">
+					<%= form_for @search, remote: true do |f| %>
+							<div class="ui field form">
+								<%= f.label :sport_id %>
+								<%= f.collection_select :sport, Sport.order(:name), :id, :name, include_blank: true %>
+							</div>
+
+							<div class="ui field form">
+								<%= f.label :gender %>
+								<%= f.collection_select(:gender, Profile::GENDER, :to_s, :to_s,
+								                        :include_blank => true) %>
+							</div>
+
+							<div class="ui field form">
+								<%= f.label :fitness_level %>
+								<%= f.collection_select(:f_level, Profile::FLEVEL, :to_s, :to_s,
+								                        :include_blank => true) %>
+
+							</div>
+							<br>
+							<div class="ui field form">
+								<%= f.label :age_range %>:
+								<br>
+								<div class="two fields">
+									<div class="field">
+										<%= f.number_field :min_age %>
+									</div>-
+									<div class="field">
+										<%= f.number_field :max_age %>
+									</div>
+								</div>
+							</div>
+
+							<%= f.submit "Search", class: "ui teal button" %>
+					<% end %>
+				</div>

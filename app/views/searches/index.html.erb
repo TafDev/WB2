@@ -1,0 +1,19 @@
+<div class="banner">
+	<p>Workout Buddy Search</p>
+</div>
+<br>
+<div class="ui container">
+	<div class="ui grid">
+		<div class="four wide column">
+			<%= render 'new' %>
+		</div>
+		<div class="twelve wide column">
+			<h1>Search Results</h1>
+			<div class="ui segment">
+				<div id="searches">
+					<%= render @profiles %>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
