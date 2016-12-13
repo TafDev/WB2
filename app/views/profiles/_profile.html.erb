@@ -1,5 +1,11 @@
 <div class="ui teal segment">
 	<div class="ui items">
+		<% if profile.user.account.is_premium? %>
+				<div class="ui red ribbon label">
+					<%= semantic_icon('star') %>
+					Premium
+				</div>
+		<% end %>
 		<div class="item">
 			<a class="ui tiny image">
 				<%= image_tag profile.user.image unless profile.user.image.nil? %>
@@ -9,6 +15,7 @@
 				<div class="description">
 					Age: <%= profile.age %><br>
 					Fitness Level: <%= profile.f_level %><br>
+					Gender: <%= profile.gender %><br>
 					Sports: <% profile.sports.each do |sport| %>
 							<%= sport.name %>
 					<% end %>

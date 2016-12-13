@@ -1,7 +1,7 @@
 class SearchesController < ApplicationController
 	def index
 		# binding.pry
-		@profiles = Profile.all
+		@profiles = Profile.all.order("created_at DESC")
 		@search = Search.new
 
 	end
