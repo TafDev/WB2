@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
 
-  get '/search', to: 'profiles#search'
+
+
 
   root 'home#index'
   devise_for :users, :controllers => { :omniauth_callbacks => "users/omniauth_callbacks", sessions: 'users/sessions' }
