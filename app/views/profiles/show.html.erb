@@ -95,6 +95,21 @@
 							<%= f.submit id: "level-submit" %>
 					<% end %>
 				</div>
+				<div id= "county" class="ui left icon input">
+					<% if @user == current_user %>
+							<span><%= semantic_icon('edit') %></span>
+					<% end %>
+					<p>County: <span id="county-span"><%= @user.profile.county %></span></p>
+				</div>
+				<br>
+				<br>
+				<div id="edit-county" class="ui field form">
+					<%= form_for @profile, {url: user_profile_path(@user), remote: true} do |f| %>
+							<%= f.collection_select(:county, Profile::COUNTY, :to_s, :to_s,
+							                        :include_blank => true) %>
+							<%= f.submit id: "county-submit" %>
+					<% end %>
+				</div>
 
 				<div id="sport" class="ui left icon input">
 					<% if @user == current_user %>
@@ -189,6 +204,10 @@
         $('#sport-form').css('display', 'block')
     });
 
+    $('#county .edit').on('click', function () {
+        $('#edit-county').toggle();
+    });
+
     $('#age .edit').on('click', function () {
         $('#edit-age').toggle();
     });
@@ -211,6 +230,16 @@
         $('#gender-submit').click();
         $('#gender').css('display', 'block');
         $('#edit-gender').css('display', 'none');
+    });
+
+    $('#edit-county').on('change', function (e, data) {
+        $('#county-submit').click();
+        $('#county').css('display', 'block');
+        $('#edit-county').css('display', 'none');
+    });
+
+    $('#edit-county').on('ajax:success', function (e, data) {
+        $('#county-span').html(data.county);
     });
 
     $('#edit-gender').on('ajax:success', function (e, data) {

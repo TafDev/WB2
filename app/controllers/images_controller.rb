@@ -2,6 +2,10 @@ class ImagesController < ApplicationController
 
 	before_action :find_user
 
+	def index
+		@images = @user.profile.images unless @user.profile.images.nil?
+	end
+
 	def create
 		@image = current_user.profile.images.create(image: params[:file])
 		# @image = Image.new(image: params[:file])
@@ -17,6 +21,12 @@ class ImagesController < ApplicationController
 		# respond_to do |format|
 		# 	format.json{ render :json => @media }
 		# end
+	end
+
+	def destroy
+		@image = Image.find(params[:id])
+		@image.destroy
+		render json: @image
 	end
 
 	private

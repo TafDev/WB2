@@ -18,6 +18,7 @@
 			<div class="content">
 				<%= link_to profile.user.username || profile.user.name, user_profile_path(profile.user), class: "header" %>
 				<div class="description">
+					Location: <%= profile.county %><br>
 					Age: <%= profile.age %><br>
 					Fitness Level: <%= profile.f_level %><br>
 					Gender: <%= profile.gender %><br>

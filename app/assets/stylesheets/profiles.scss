@@ -41,6 +41,9 @@
   }
 }
 
+#edit-county {
+  display: none;
+}
 #search {
 
 }
@@ -59,6 +62,10 @@
 #edit-age {
   display: none;
 
+}
+
+#county-submit {
+  display: none;
 }
 #edit-description {
   cursor: pointer;

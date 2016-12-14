@@ -83,9 +83,7 @@
 								<%= link_to "My Profile", user_profile_path(current_user.id), class: "item" %>
 								<%= link_to "My Account", user_account_path(current_user.id), class: "item" %>
 								<%= link_to "Messages", conversations_path, class: "item" %>
-								<a class="item">
-									Friends
-								</a>
+								<%= link_to "My Gallery", user_profile_images_path(current_user.id), class: "item" %>
 						<% end %>
 					</div>
 				</div>

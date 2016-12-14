@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
 
+	get '/users/sign_in' => redirect("/users/sign_up")
 
   root 'home#index'
   devise_for :users, :controllers => { :omniauth_callbacks => "users/omniauth_callbacks", sessions: 'users/sessions' }
@@ -7,7 +8,7 @@ Rails.application.routes.draw do
   resources :users do
 	  resource :account, only: [:show, :update]
 	  resource :profile, only: [:show, :update, :destroy] do
-		  resources :images, only: [:create, :show]
+		  resources :images, only: [:index, :create, :show, :destroy]
 	  end
   end
 

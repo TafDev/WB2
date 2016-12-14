@@ -30,7 +30,8 @@ class MessagesController < ApplicationController
 		if message.save
 			ActionCable.server.broadcast("messaging_channel", body: message.body,
 																												user: message.user,
-																												name: message.user.username || message.user.name
+																												name: message.user.username || message.user.name,
+																												id: message.conversation.id
 			)
 		end
 	end

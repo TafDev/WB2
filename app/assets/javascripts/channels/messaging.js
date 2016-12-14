@@ -7,7 +7,7 @@ App.messaging = App.cable.subscriptions.create("MessagingChannel", {
     },
     received: function(data) {
         console.log(data);
-       $('.segment').append(
+       $('#messages-' + data.id).append(
            '<div class="ui icon message">' +
             data.name + ": " + data.body +
            '</div>'

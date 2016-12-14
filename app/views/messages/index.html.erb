@@ -2,11 +2,11 @@
 		<%= link_to "Show Previous", "?m=all" %>
 <% end %>
 <div class="ui container">
-	<div class="ui segment">
+	<div id="messages-<%= @conversation.id %>" class="ui segment">
 		<% @messages.each do |message| %>
 				<% if message.body %>
 						<% user = User.find(message.user_id) %>
-						<div id="messages" class="item">
+						<div  class="item">
 							<div class="ui icon message">
 								<div id="tiny-img" class="ui tiny image">
 									<%= image_tag user.image unless user.image.nil? %>
@@ -45,5 +45,6 @@
 <script type="text/javascript" charset="utf-8">
 	$('#msg-form').on('ajax:success', function () {
 			$('.form-control').val("");
-  })
+  });
+
 </script>
