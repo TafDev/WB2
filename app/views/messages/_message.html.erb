@@ -3,6 +3,7 @@
 <% end %>
 <div class="ui container">
 	<div class="ui segment">
+		<% unless @messages.nil? %>
 		<% @messages.each do |message| %>
 				<% if message.body %>
 						<% user = User.find(message.user_id) %>
@@ -15,7 +16,7 @@
 									<% if user == current_user %>
 											<div class="header"><strong>Me</strong></div>
 									<% else %>
-										<div class="header"><strong><%=link_to user.name || user.username, user_profile_path(user) %></strong></div>
+											<div class="header"><strong><%=link_to user.name || user.username, user_profile_path(user) %></strong></div>
 									<% end %>
 									<div class="list">
 										<div class="item">
@@ -27,6 +28,7 @@
 						</div>
 						<br>
 				<% end %>
+		<% end %>
 		<% end %>
 	</div>
 
@@ -43,7 +45,7 @@
 
 </div>
 <script type="text/javascript" charset="utf-8">
-	$('#msg-form').on('ajax:success', function () {
-			$('.form-control').val("");
-  })
+    $('#msg-form').on('ajax:success', function () {
+        $('.form-control').val("");
+    })
 </script>

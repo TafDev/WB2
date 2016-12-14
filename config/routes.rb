@@ -17,5 +17,7 @@ Rails.application.routes.draw do
 
 	resources :searches
 
+  mount ActionCable.server, at: '/cable'
+
 end
 
