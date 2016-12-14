@@ -6,6 +6,11 @@
 					Premium
 				</div>
 		<% end %>
+		<div class="extra">
+			<div class="ui right floated">
+				<%= link_to "Message me!", conversations_path(sender_id: current_user.id, recipient_id: profile.user.id), method: "post", class: "ui teal button" %>
+			</div>
+		</div>
 		<div class="item">
 			<a class="ui tiny image">
 				<%= image_tag profile.user.image unless profile.user.image.nil? %>

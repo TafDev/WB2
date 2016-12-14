@@ -1,9 +1,0 @@
-
-<h1>Search REsults</h1>
-<% if @search.get_profiles.nil? %>
-		No Profile matching
-<% else %>
-	<% @search.get_profiles.each do |profile| %>
-				<%= profile.age %>
-	<% end %>
-<% end %>
