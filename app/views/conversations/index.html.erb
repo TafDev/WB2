@@ -1,3 +1,17 @@
+
+<div id="modal-form" class="ui small basic modal">
+		<div class="ui icon header">
+			<i class="star icon"></i><br>
+			Only premium members can user the messaging,
+			Would you like to get premium for life?
+		</div>
+
+		<div class="actions">
+			<%= link_to "No", user_profile_path(current_user), class: "ui red basic cancel inverted button" %>
+			<%= link_to "Yes", user_account_path(current_user), class: "ui green basic cancel inverted button" %>
+		</div>
+</div>
+
 <div class="ui container">
 	<div class="ui grid">
 		<div class="five wide column">
@@ -16,3 +30,12 @@
 		</div>
 	</div>
 </div>
+
+<script type="text/javascript" charset="utf-8">
+	<% unless current_user.account.is_premium? %>
+    $('#modal-form')
+        .modal('setting', 'closable', false)
+        .modal('show')
+    ;
+    <% end %>
+</script>

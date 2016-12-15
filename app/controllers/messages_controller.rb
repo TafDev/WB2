@@ -1,7 +1,7 @@
 class MessagesController < ApplicationController
-	before_action do
-		@conversation = Conversation.find(params[:conversation_id])
-	end
+	before_action :find_conversation
+	load_and_authorize_resource
+
 
 	def index
 		@messages = @conversation.messages
@@ -19,6 +19,7 @@ class MessagesController < ApplicationController
 			end
 		end
 		@message = @conversation.messages.new
+		authorize! :index, @messages
 	end
 
 	def new
@@ -40,6 +41,10 @@ class MessagesController < ApplicationController
 
 	def message_params
 		params.require(:message).permit(:body, :user_id)
+	end
+
+	def find_conversation
+		@conversation = Conversation.find(params[:conversation_id])
 	end
 
 end
