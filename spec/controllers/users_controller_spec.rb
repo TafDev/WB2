@@ -5,7 +5,7 @@ RSpec.describe UsersController, type: :controller do
 		ProfileSport.destroy_all
 		Profile.destroy_all
 		User.destroy_all
-		@image = (File.open(File.join(Rails.root, '/spec/fixtures/files/steve.jpg')))
+		@image = File.new(Rails.root + 'spec/fixtures/files/steve.jpg')
 	end
 
 	describe "User update" do
@@ -17,9 +17,9 @@ RSpec.describe UsersController, type: :controller do
 
 
 		it "should allow user change image" do
-			expect(barvis.image).to eq('/spec/fixtures/files/steve.jpg')
+			barvis.update(image: @image)
+			expect(barvis.image).to be_truthy
 		end
 	end
-
 end
 

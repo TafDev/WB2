@@ -8,6 +8,9 @@ class User < ApplicationRecord
   has_one :profile, dependent: :destroy
   has_one :account, dependent: :destroy
 
+  has_many :conversations, foreign_key: :sender_id
+  has_many :messages, through: :conversations
+
   after_create :make_profile, :make_account
 
   def self.new_with_session(params, session)

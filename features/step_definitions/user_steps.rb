@@ -1,6 +1,8 @@
 Given(/^I have sample users$/) do
 	@barvis = User.create(username: "Barvis", email: "barvis@test.com", password: "123456")
 	@mavis = User.create(username: "mavis", email: "mavis@test.com", password: "123456")
+	@barvis.create_account
+	@mavis.create_profile
 end
 
 

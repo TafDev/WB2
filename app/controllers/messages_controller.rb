@@ -1,25 +1,12 @@
 class MessagesController < ApplicationController
 	before_action :find_conversation
-	load_and_authorize_resource
+	# load_and_authorize_resource
 
 
 	def index
 		@messages = @conversation.messages
-		if @messages.length > 10
-			@over_ten = true
-			@messages = @messages[-10..-1]
-		end
-		if params[:m]
-			@over_ten = false
-			@messages = @conversation.messages
-		end
-		if @messages.last
-			if @messages.last.user_id != current_user.id
-				@messages.last.read = true;
-			end
-		end
 		@message = @conversation.messages.new
-		authorize! :index, @messages
+		# authorize! :index, @messages
 	end
 
 	def new

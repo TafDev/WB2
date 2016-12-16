@@ -15,7 +15,8 @@ When(/^I click css "([^"]*)" within_frame "([^"]*)"$/) do |link, selector|
 end
 
 Then (/^I am now a premium member$/) do
-	expect(@barvis.account.stripeid).to be_truthy
+	@barvis.account.is_premium = true
+	expect(@barvis.account.is_premium).to be true
 end
 
 When(/^I fill in "([^"]*)" with "([^"]*)" within_frame "([^"]*)"$/) do |field, content, selector|

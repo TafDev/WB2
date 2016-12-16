@@ -76,9 +76,6 @@
 				<div class="ui secondary pointing menu">
 					<div class="left stackable menu">
 						<% if user_signed_in? %>
-								<a class="item">
-									Home
-								</a>
 								<%= link_to "Search", searches_path, class: "item" %>
 								<%= link_to "My Profile", user_profile_path(current_user.id), class: "item" %>
 								<%= link_to "My Account", user_account_path(current_user.id), class: "item" %>
@@ -89,7 +86,6 @@
 				</div>
 			</div>
 		</div>
-
 	</div>
 </header>
   <p class="notice"><%= notice %></p>

@@ -60,6 +60,16 @@ end
 #   end
 #
 
+
+Before('@stripe') do
+	let(:stripe_helper) { StripeMock.create_test_helper }
+	StripeMock.start_client
+end
+
+After('@stripe') do
+	StripeMock.stop_client
+end
+
 Before('@omniauth_test_success') do
 	OmniAuth.config.test_mode = true
 

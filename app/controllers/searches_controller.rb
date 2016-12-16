@@ -1,6 +1,5 @@
 class SearchesController < ApplicationController
 	def index
-		# binding.pry
 		@profiles = Profile.all.order("created_at DESC")
 		@search = Search.new
 
@@ -8,9 +7,7 @@ class SearchesController < ApplicationController
 
 
 	def create
-		# binding.pry
 		@search = Search.create!(search_params)
-		# redirect_to @search
 		respond_to do |format|
 			format.js
 		end

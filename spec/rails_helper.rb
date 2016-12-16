@@ -1,14 +1,20 @@
-
 # This file is copied to spec/ when you run 'rails generate rspec:install'
 ENV['RAILS_ENV'] ||= 'test'
 require 'simplecov'
-SimpleCov.start 'rails'
+SimpleCov.start 'rails' do
+	add_filter 'app/mailers/application_mailer.rb'
+	add_filter 'app/jobs/application_job.rb'
+	add_filter 'app/controllers/users/registrations_controller.rb'
+end
+
 puts "required simplecov"
 require File.expand_path('../../config/environment', __FILE__)
 # Prevent database truncation if the environment is production
 abort("The Rails environment is running in production mode!") if Rails.env.production?
 require 'spec_helper'
 require 'rspec/rails'
+require 'database_cleaner'
+
 # Add additional requires below this line. Rails is not loaded until this point!
 
 # Requires supporting ruby files with custom matchers and macros, etc, in
@@ -31,6 +37,19 @@ require 'rspec/rails'
 ActiveRecord::Migration.maintain_test_schema!
 
 RSpec.configure do |config|
+
+	config.before(:suite) do
+		DatabaseCleaner.strategy = :transaction
+		DatabaseCleaner.clean_with(:truncation)
+	end
+
+	config.around(:each) do |example|
+		DatabaseCleaner.cleaning do
+			example.run
+		end
+	end
+
+
 	config.include Devise::Test::ControllerHelpers, type: :controller
 
 	# Remove this line if you're not using ActiveRecord or ActiveRecord fixtures
