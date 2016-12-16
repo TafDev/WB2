@@ -10,6 +10,8 @@ require 'cucumber/rails'
 require 'capybara/cucumber'
 require 'rack_session_access/capybara'
 require 'selenium-webdriver'
+require 'stripe_mock'
+
 
 
 
@@ -57,22 +59,29 @@ end
 #     DatabaseCleaner.strategy = :transaction
 #   end
 #
+
 Before('@omniauth_test_success') do
 	OmniAuth.config.test_mode = true
 
 	OmniAuth.config.mock_auth[:facebook] = {
 			"provider"  => "facebook",
 			"uid"       => '12345',
-			"user_info" => {
+			"info" => {
 					"email" => "email@email.com",
 					"first_name" => "John",
 					"last_name"  => "Doe",
 					"name"       => "John Doe"
-					# any other attributes you want to stub out for testing
 			}
 	}
 end
 
+Before('@omniauth_test_failure') do
+	OmniAuth.config.test_mode = true
+
+	def facebook_login_failure
+		OmniAuth.config.mock_auth[:facebook] = :invalid_credentials
+	end
+end
 # Possible values are :truncation and :transaction
 # The :transaction strategy is faster, but might give you threading problems.
 # See https://github.com/cucumber/cucumber-rails/blob/master/features/choose_javascript_database_strategy.feature

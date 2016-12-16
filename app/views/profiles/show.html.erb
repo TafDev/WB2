@@ -133,6 +133,7 @@
 					<%= form_for @sport, url: user_profile_path(@user), method: :patch, remote: true do |f| %>
 							<%= f.text_field :name %>
 							<p>Please comma seperate your hobbies e.g fun, games, love</p>
+							<%= f.submit id: "sport-submit" %>
 					<% end %>
 				</div>
 				</div>

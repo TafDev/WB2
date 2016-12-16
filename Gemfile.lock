@@ -102,6 +102,7 @@ GEM
       nokogiri (~> 1.5)
       railties (>= 3, < 5.1)
     cucumber-wire (0.0.1)
+    dante (0.2.0)
     database_cleaner (1.5.3)
     debug_inspector (0.0.2)
     devise (4.2.0)
@@ -299,6 +300,10 @@ GEM
       sprockets (>= 3.0.0)
     stripe (1.56.1)
       rest-client (>= 1.4, < 4.0)
+    stripe-ruby-mock (2.3.1)
+      dante (>= 0.2.0)
+      multi_json (~> 1.0)
+      stripe (~> 1.31)
     thor (0.19.4)
     thread_safe (0.3.5)
     tilt (2.0.5)
@@ -362,11 +367,13 @@ DEPENDENCIES
   rails-erd
   react-rails
   sass-rails (~> 5.0)
+  selenium-webdriver
   semantic-ui-sass
   simplecov
   spring
   spring-watcher-listen (~> 2.0.0)
   stripe
+  stripe-ruby-mock (~> 2.3.1)
   tsuite
   turbolinks (~> 5)
   tzinfo-data

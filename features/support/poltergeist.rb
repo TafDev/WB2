@@ -10,5 +10,7 @@ Around('@poltergeist') do |scenario, block|
   block.call
     # Reset it back to the original
   Capybara.default_driver = @capy_def_driver # Usually :rack_test
-  Capybara.javascript_driver = @capy_js_driver # Usually :selenium
+  Capybara.javascript_driver = @capy_js_driver
+
+  # Capybara.javascript_driver = @capy_js_driver # Usually :selenium
 end

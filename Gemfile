@@ -42,6 +42,8 @@ gem 'omniauth'
 gem 'rails-erd'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
+gem 'selenium-webdriver'
+# gem "capybara-webkit"
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
@@ -50,6 +52,7 @@ group :development, :test do
 	gem 'factory_girl_rails'
 	gem 'pry-byebug'
 	gem 'simplecov'
+  gem 'stripe-ruby-mock', '~> 2.3.1', :require => 'stripe_mock'
 end
 
 group :development do

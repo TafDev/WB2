@@ -2,17 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7f3b3391-9021-49a9-8808-baf9cffd591b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.generators" afterPath="$PROJECT_DIR$/.idea/.generators" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/erd.pdf" afterPath="$PROJECT_DIR$/erd.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.rakeTasks" afterPath="$PROJECT_DIR$/.idea/.rakeTasks" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/WorkoutBuddy.iml" afterPath="$PROJECT_DIR$/.idea/WorkoutBuddy.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/0cff4e3c-dd49-49b1-b4b9-8f2c8a9ad8c0.xml" afterPath="$PROJECT_DIR$/.idea/dataSources/0cff4e3c-dd49-49b1-b4b9-8f2c8a9ad8c0.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/application.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/application.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/application_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/application_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/conversations_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/conversations_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/messages_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/messages_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/profile.rb" afterPath="$PROJECT_DIR$/app/models/profile.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/conversations/index.html.erb" afterPath="$PROJECT_DIR$/app/views/conversations/index.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/accounts_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/accounts_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/users_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/users_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/user.rb" afterPath="$PROJECT_DIR$/app/models/user.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/uploaders/images_uploader.rb" afterPath="$PROJECT_DIR$/app/uploaders/images_uploader.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/devise/shared/_links.html.erb" afterPath="$PROJECT_DIR$/app/views/devise/shared/_links.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/profiles/show.html.erb" afterPath="$PROJECT_DIR$/app/views/profiles/show.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/environments/test.rb" afterPath="$PROJECT_DIR$/config/environments/test.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/account.feature" afterPath="$PROJECT_DIR$/features/account.feature" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/profile.feature" afterPath="$PROJECT_DIR$/features/profile.feature" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/step_definitions/account_steps.rb" afterPath="$PROJECT_DIR$/features/step_definitions/account_steps.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/step_definitions/profile_steps.rb" afterPath="$PROJECT_DIR$/features/step_definitions/profile_steps.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/step_definitions/user_steps.rb" afterPath="$PROJECT_DIR$/features/step_definitions/user_steps.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/step_definitions/util_steps.rb" afterPath="$PROJECT_DIR$/features/step_definitions/util_steps.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/support/env.rb" afterPath="$PROJECT_DIR$/features/support/env.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/support/poltergeist.rb" afterPath="$PROJECT_DIR$/features/support/poltergeist.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/user.feature" afterPath="$PROJECT_DIR$/features/user.feature" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/factories/user_factory.rb" afterPath="$PROJECT_DIR$/spec/factories/user_factory.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/models/user_spec.rb" afterPath="$PROJECT_DIR$/spec/models/user_spec.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/rails_helper.rb" afterPath="$PROJECT_DIR$/spec/rails_helper.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/spec_helper.rb" afterPath="$PROJECT_DIR$/spec/spec_helper.rb" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -30,7 +48,7 @@
     <SUITE FILE_PATH="coverage/WorkoutBuddy@user_feature.coverage" NAME="user.feature Coverage Results" MODIFIED="1481061270792" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="WorkoutBuddy" />
     <SUITE FILE_PATH="coverage/WorkoutBuddy@Development__WorkoutBuddy.coverage" NAME="Development: WorkoutBuddy Coverage Results" MODIFIED="1481028573217" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="WorkoutBuddy" />
     <SUITE FILE_PATH="coverage/WorkoutBuddy@All_tests_in_spec__WorkoutBuddy.coverage" NAME="All tests in spec: WorkoutBuddy Coverage Results" MODIFIED="1481067631786" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="WorkoutBuddy" />
-    <SUITE FILE_PATH="coverage/WorkoutBuddy@Unnamed.coverage" NAME="Unnamed Coverage Results" MODIFIED="1481729105089" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" MODULE_NAME="WorkoutBuddy" />
+    <SUITE FILE_PATH="coverage/WorkoutBuddy@Unnamed.coverage" NAME="Unnamed Coverage Results" MODIFIED="1481829766894" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" MODULE_NAME="WorkoutBuddy" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -80,7 +98,7 @@
         <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$GroupNode" />
       </PATH_ELEMENT>
       <PATH_ELEMENT>
-        <option name="myItemId" value="searches" />
+        <option name="myItemId" value="accounts" />
         <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
       </PATH_ELEMENT>
     </PATH>
@@ -91,101 +109,329 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="application_controller.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
+      <file leaf-file-name="users_controller_spec.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spec/controllers/users_controller_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+            <state relative-caret-position="210">
+              <caret line="14" column="49" lean-forward="false" selection-start-line="14" selection-start-column="49" selection-end-line="14" selection-end-column="49" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Gemfile" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Gemfile">
+      <file leaf-file-name="account.feature" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/features/account.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+            <state relative-caret-position="315">
+              <caret line="29" column="37" lean-forward="false" selection-start-line="29" selection-start-column="37" selection-end-line="29" selection-end-column="37" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
+      <file leaf-file-name="registrations_controller_spec.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spec/controllers/registrations_controller_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="2" lean-forward="false" selection-start-line="19" selection-start-column="2" selection-end-line="19" selection-end-column="2" />
+            <state relative-caret-position="-73">
+              <caret line="14" column="51" lean-forward="false" selection-start-line="14" selection-start-column="51" selection-end-line="14" selection-end-column="51" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ability.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/ability.rb">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/coverage/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="23" lean-forward="true" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
-              <folding />
+            <state relative-caret-position="255">
+              <caret line="26" column="25" lean-forward="true" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
+              <folding>
+                <element signature="e#35584#35588#0" expanded="true" />
+                <element signature="e#36743#36747#0" expanded="true" />
+                <element signature="e#37938#37942#0" expanded="true" />
+                <element signature="e#38283#38289#0" expanded="true" />
+                <element signature="e#38306#38312#0" expanded="true" />
+                <element signature="e#39894#39898#0" expanded="true" />
+                <element signature="e#43402#43406#0" expanded="true" />
+                <element signature="e#43407#43412#0" expanded="true" />
+                <element signature="e#43421#43426#0" expanded="true" />
+                <element signature="e#45582#45586#0" expanded="true" />
+                <element signature="e#48328#48332#0" expanded="true" />
+                <element signature="e#52055#52059#0" expanded="true" />
+                <element signature="e#52060#52066#0" expanded="true" />
+                <element signature="e#52080#52086#0" expanded="true" />
+                <element signature="e#53808#53812#0" expanded="true" />
+                <element signature="e#55052#55056#0" expanded="true" />
+                <element signature="e#57228#57232#0" expanded="true" />
+                <element signature="e#58532#58536#0" expanded="true" />
+                <element signature="e#61474#61478#0" expanded="true" />
+                <element signature="e#62623#62627#0" expanded="true" />
+                <element signature="e#66541#66547#0" expanded="true" />
+                <element signature="e#66564#66570#0" expanded="true" />
+                <element signature="e#70174#70178#0" expanded="true" />
+                <element signature="e#73010#73016#0" expanded="true" />
+                <element signature="e#73017#73023#0" expanded="true" />
+                <element signature="e#73029#73034#0" expanded="true" />
+                <element signature="e#73910#73914#0" expanded="true" />
+                <element signature="e#73914#73918#0" expanded="true" />
+                <element signature="e#74441#74446#0" expanded="true" />
+                <element signature="e#74452#74457#0" expanded="true" />
+                <element signature="e#76284#76288#0" expanded="true" />
+                <element signature="e#79262#79266#0" expanded="true" />
+                <element signature="e#79771#79777#0" expanded="true" />
+                <element signature="e#79792#79798#0" expanded="true" />
+                <element signature="e#84087#84091#0" expanded="true" />
+                <element signature="e#84521#84527#0" expanded="true" />
+                <element signature="e#84540#84546#0" expanded="true" />
+                <element signature="e#85088#85092#0" expanded="true" />
+                <element signature="e#85325#85329#0" expanded="true" />
+                <element signature="e#85330#85336#0" expanded="true" />
+                <element signature="e#85344#85350#0" expanded="true" />
+                <element signature="e#85677#85683#0" expanded="true" />
+                <element signature="e#85703#85709#0" expanded="true" />
+                <element signature="e#85725#85731#0" expanded="true" />
+                <element signature="e#85744#85750#0" expanded="true" />
+                <element signature="e#87670#87674#0" expanded="true" />
+                <element signature="e#97945#97949#0" expanded="true" />
+                <element signature="e#102384#102388#0" expanded="true" />
+                <element signature="e#103418#103422#0" expanded="true" />
+                <element signature="e#111429#111433#0" expanded="true" />
+                <element signature="e#112199#112203#0" expanded="true" />
+                <element signature="e#112380#112385#0" expanded="true" />
+                <element signature="e#112401#112406#0" expanded="true" />
+                <element signature="e#112557#112562#0" expanded="true" />
+                <element signature="e#112568#112573#0" expanded="true" />
+                <element signature="e#118595#118599#0" expanded="true" />
+                <element signature="e#120052#120056#0" expanded="true" />
+                <element signature="e#121040#121044#0" expanded="true" />
+                <element signature="e#121999#122003#0" expanded="true" />
+                <element signature="e#122340#122344#0" expanded="true" />
+                <element signature="e#122369#122375#0" expanded="true" />
+                <element signature="e#122379#122385#0" expanded="true" />
+                <element signature="e#122565#122569#0" expanded="true" />
+                <element signature="e#122597#122603#0" expanded="true" />
+                <element signature="e#122607#122613#0" expanded="true" />
+                <element signature="e#123124#123128#0" expanded="true" />
+                <element signature="e#123444#123448#0" expanded="true" />
+                <element signature="e#123627#123633#0" expanded="true" />
+                <element signature="e#123763#123769#0" expanded="true" />
+                <element signature="e#124874#124878#0" expanded="true" />
+                <element signature="e#126304#126308#0" expanded="true" />
+                <element signature="e#127457#127463#0" expanded="true" />
+                <element signature="e#127483#127489#0" expanded="true" />
+                <element signature="e#128397#128401#0" expanded="true" />
+                <element signature="e#130228#130234#0" expanded="true" />
+                <element signature="e#130238#130244#0" expanded="true" />
+                <element signature="e#130387#130393#0" expanded="true" />
+                <element signature="e#130405#130411#0" expanded="true" />
+                <element signature="e#130554#130560#0" expanded="true" />
+                <element signature="e#130569#130575#0" expanded="true" />
+                <element signature="e#130718#130724#0" expanded="true" />
+                <element signature="e#130731#130737#0" expanded="true" />
+                <element signature="e#130880#130886#0" expanded="true" />
+                <element signature="e#130901#130907#0" expanded="true" />
+                <element signature="e#131050#131056#0" expanded="true" />
+                <element signature="e#131070#131076#0" expanded="true" />
+                <element signature="e#131219#131225#0" expanded="true" />
+                <element signature="e#131232#131238#0" expanded="true" />
+                <element signature="e#131381#131387#0" expanded="true" />
+                <element signature="e#131395#131401#0" expanded="true" />
+                <element signature="e#131544#131550#0" expanded="true" />
+                <element signature="e#131559#131565#0" expanded="true" />
+                <element signature="e#131708#131714#0" expanded="true" />
+                <element signature="e#131719#131725#0" expanded="true" />
+                <element signature="e#131868#131874#0" expanded="true" />
+                <element signature="e#131882#131888#0" expanded="true" />
+                <element signature="e#132031#132037#0" expanded="true" />
+                <element signature="e#132050#132056#0" expanded="true" />
+                <element signature="e#132199#132205#0" expanded="true" />
+                <element signature="e#132218#132224#0" expanded="true" />
+                <element signature="e#132367#132373#0" expanded="true" />
+                <element signature="e#132384#132390#0" expanded="true" />
+                <element signature="e#132533#132539#0" expanded="true" />
+                <element signature="e#132555#132561#0" expanded="true" />
+                <element signature="e#132704#132710#0" expanded="true" />
+                <element signature="e#132728#132734#0" expanded="true" />
+                <element signature="e#132877#132883#0" expanded="true" />
+                <element signature="e#132896#132902#0" expanded="true" />
+                <element signature="e#133045#133051#0" expanded="true" />
+                <element signature="e#133058#133064#0" expanded="true" />
+                <element signature="e#133207#133213#0" expanded="true" />
+                <element signature="e#133223#133229#0" expanded="true" />
+                <element signature="e#133372#133378#0" expanded="true" />
+                <element signature="e#133383#133389#0" expanded="true" />
+                <element signature="e#133532#133538#0" expanded="true" />
+                <element signature="e#133544#133550#0" expanded="true" />
+                <element signature="e#133693#133699#0" expanded="true" />
+                <element signature="e#133720#133726#0" expanded="true" />
+                <element signature="e#133869#133875#0" expanded="true" />
+                <element signature="e#133881#133887#0" expanded="true" />
+                <element signature="e#134030#134036#0" expanded="true" />
+                <element signature="e#134041#134047#0" expanded="true" />
+                <element signature="e#134190#134196#0" expanded="true" />
+                <element signature="e#134207#134213#0" expanded="true" />
+                <element signature="e#134356#134362#0" expanded="true" />
+                <element signature="e#134367#134373#0" expanded="true" />
+                <element signature="e#134516#134522#0" expanded="true" />
+                <element signature="e#134526#134532#0" expanded="true" />
+                <element signature="e#134675#134681#0" expanded="true" />
+                <element signature="e#134696#134702#0" expanded="true" />
+                <element signature="e#134845#134851#0" expanded="true" />
+                <element signature="e#134859#134865#0" expanded="true" />
+                <element signature="e#135008#135014#0" expanded="true" />
+                <element signature="e#135032#135038#0" expanded="true" />
+                <element signature="e#135181#135187#0" expanded="true" />
+                <element signature="e#135192#135198#0" expanded="true" />
+                <element signature="e#135341#135347#0" expanded="true" />
+                <element signature="e#135361#135367#0" expanded="true" />
+                <element signature="e#135510#135516#0" expanded="true" />
+                <element signature="e#135525#135531#0" expanded="true" />
+                <element signature="e#135674#135680#0" expanded="true" />
+                <element signature="e#135693#135699#0" expanded="true" />
+                <element signature="e#135842#135848#0" expanded="true" />
+                <element signature="e#135861#135867#0" expanded="true" />
+                <element signature="e#136010#136016#0" expanded="true" />
+                <element signature="e#136037#136043#0" expanded="true" />
+                <element signature="e#136186#136192#0" expanded="true" />
+                <element signature="e#136202#136208#0" expanded="true" />
+                <element signature="e#136351#136357#0" expanded="true" />
+                <element signature="e#136370#136376#0" expanded="true" />
+                <element signature="e#136519#136525#0" expanded="true" />
+                <element signature="e#136529#136535#0" expanded="true" />
+                <element signature="e#136678#136684#0" expanded="true" />
+                <element signature="e#136694#136700#0" expanded="true" />
+                <element signature="e#136843#136849#0" expanded="true" />
+                <element signature="e#136863#136869#0" expanded="true" />
+                <element signature="e#137012#137018#0" expanded="true" />
+                <element signature="e#137030#137036#0" expanded="true" />
+                <element signature="e#137179#137185#0" expanded="true" />
+                <element signature="e#137192#137198#0" expanded="true" />
+                <element signature="e#137341#137347#0" expanded="true" />
+                <element signature="e#137357#137363#0" expanded="true" />
+                <element signature="e#137506#137512#0" expanded="true" />
+                <element signature="e#137525#137531#0" expanded="true" />
+                <element signature="e#137674#137680#0" expanded="true" />
+                <element signature="e#137687#137693#0" expanded="true" />
+                <element signature="e#137836#137842#0" expanded="true" />
+                <element signature="e#137857#137863#0" expanded="true" />
+                <element signature="e#138006#138012#0" expanded="true" />
+                <element signature="e#138028#138034#0" expanded="true" />
+                <element signature="e#138177#138183#0" expanded="true" />
+                <element signature="e#138197#138203#0" expanded="true" />
+                <element signature="e#138346#138352#0" expanded="true" />
+                <element signature="e#138367#138373#0" expanded="true" />
+                <element signature="e#138516#138522#0" expanded="true" />
+                <element signature="e#138533#138539#0" expanded="true" />
+                <element signature="e#138682#138688#0" expanded="true" />
+                <element signature="e#138693#138699#0" expanded="true" />
+                <element signature="e#138842#138848#0" expanded="true" />
+                <element signature="e#138855#138861#0" expanded="true" />
+                <element signature="e#139004#139010#0" expanded="true" />
+                <element signature="e#139020#139026#0" expanded="true" />
+                <element signature="e#139169#139175#0" expanded="true" />
+                <element signature="e#139183#139189#0" expanded="true" />
+                <element signature="e#139332#139338#0" expanded="true" />
+                <element signature="e#139353#139359#0" expanded="true" />
+                <element signature="e#139502#139508#0" expanded="true" />
+                <element signature="e#139523#139529#0" expanded="true" />
+                <element signature="e#139672#139678#0" expanded="true" />
+                <element signature="e#139691#139697#0" expanded="true" />
+                <element signature="e#139840#139846#0" expanded="true" />
+                <element signature="e#139857#139863#0" expanded="true" />
+                <element signature="e#140006#140012#0" expanded="true" />
+                <element signature="e#140019#140025#0" expanded="true" />
+                <element signature="e#140168#140174#0" expanded="true" />
+                <element signature="e#140180#140186#0" expanded="true" />
+                <element signature="e#140329#140335#0" expanded="true" />
+                <element signature="e#140342#140348#0" expanded="true" />
+                <element signature="e#140491#140497#0" expanded="true" />
+                <element signature="e#140510#140516#0" expanded="true" />
+                <element signature="e#140659#140665#0" expanded="true" />
+                <element signature="e#140677#140683#0" expanded="true" />
+                <element signature="e#140826#140832#0" expanded="true" />
+                <element signature="e#140846#140852#0" expanded="true" />
+                <element signature="e#140995#141001#0" expanded="true" />
+                <element signature="e#141014#141020#0" expanded="true" />
+                <element signature="e#141163#141169#0" expanded="true" />
+                <element signature="e#141180#141186#0" expanded="true" />
+                <element signature="e#141329#141335#0" expanded="true" />
+                <element signature="e#141349#141355#0" expanded="true" />
+                <element signature="e#141498#141504#0" expanded="true" />
+                <element signature="e#141513#141519#0" expanded="true" />
+                <element signature="e#141662#141668#0" expanded="true" />
+                <element signature="e#141682#141688#0" expanded="true" />
+                <element signature="e#142883#142887#0" expanded="true" />
+                <element signature="e#144011#144015#0" expanded="true" />
+                <element signature="e#144868#144874#0" expanded="true" />
+                <element signature="e#144884#144890#0" expanded="true" />
+                <element signature="e#145087#145093#0" expanded="true" />
+                <element signature="e#145103#145109#0" expanded="true" />
+                <element signature="e#145306#145311#0" expanded="true" />
+                <element signature="e#145322#145327#0" expanded="true" />
+                <element signature="e#145526#145531#0" expanded="true" />
+                <element signature="e#145535#145539#0" expanded="true" />
+                <element signature="e#145542#145547#0" expanded="true" />
+                <element signature="e#145747#145752#0" expanded="true" />
+                <element signature="e#145756#145760#0" expanded="true" />
+                <element signature="e#145763#145768#0" expanded="true" />
+                <element signature="e#146998#147002#0" expanded="true" />
+                <element signature="e#148183#148187#0" expanded="true" />
+                <element signature="e#149209#149213#0" expanded="true" />
+                <element signature="e#150880#150886#0" expanded="true" />
+                <element signature="e#150906#150912#0" expanded="true" />
+                <element signature="e#150914#150919#0" expanded="true" />
+                <element signature="e#150919#150924#0" expanded="true" />
+                <element signature="e#150933#150939#0" expanded="true" />
+                <element signature="e#150959#150965#0" expanded="true" />
+                <element signature="e#150967#150973#0" expanded="true" />
+                <element signature="e#150978#150984#0" expanded="true" />
+                <element signature="e#150986#150992#0" expanded="true" />
+                <element signature="e#151000#151006#0" expanded="true" />
+                <element signature="e#151173#151179#0" expanded="true" />
+                <element signature="e#151184#151190#0" expanded="true" />
+                <element signature="e#152190#152196#0" expanded="true" />
+                <element signature="e#152204#152210#0" expanded="true" />
+                <element signature="e#152223#152229#0" expanded="true" />
+                <element signature="e#152232#152238#0" expanded="true" />
+                <element signature="e#152459#152465#0" expanded="true" />
+                <element signature="e#152469#152475#0" expanded="true" />
+                <element signature="e#152477#152483#0" expanded="true" />
+                <element signature="e#152488#152494#0" expanded="true" />
+                <element signature="e#152905#152911#0" expanded="true" />
+                <element signature="e#152915#152921#0" expanded="true" />
+                <element signature="e#152923#152929#0" expanded="true" />
+                <element signature="e#152933#152939#0" expanded="true" />
+                <element signature="e#153133#153139#0" expanded="true" />
+                <element signature="e#153143#153149#0" expanded="true" />
+                <element signature="e#153151#153157#0" expanded="true" />
+                <element signature="e#153162#153168#0" expanded="true" />
+                <element signature="e#155757#155761#0" expanded="true" />
+                <element signature="e#158029#158035#0" expanded="true" />
+                <element signature="e#158099#158105#0" expanded="true" />
+                <element signature="e#158585#158590#0" expanded="true" />
+                <element signature="e#159181#159187#0" expanded="true" />
+                <element signature="e#159196#159202#0" expanded="true" />
+                <element signature="e#159220#159226#0" expanded="true" />
+                <element signature="e#159237#159243#0" expanded="true" />
+                <element signature="e#159258#159263#0" expanded="true" />
+                <element signature="e#159264#159269#0" expanded="true" />
+                <element signature="e#159559#159565#0" expanded="true" />
+                <element signature="e#159574#159580#0" expanded="true" />
+                <element signature="e#159598#159604#0" expanded="true" />
+                <element signature="e#159615#159621#0" expanded="true" />
+                <element signature="e#159636#159641#0" expanded="true" />
+                <element signature="e#159642#159647#0" expanded="true" />
+                <element signature="e#163611#163617#0" expanded="true" />
+                <element signature="e#163630#163636#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="messages_controller.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/messages_controller.rb">
+      <file leaf-file-name="users_controller.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/users_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-131">
-              <caret line="2" column="20" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="profile.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/profile.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="439">
-              <caret line="82" column="0" lean-forward="false" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="conversations_controller.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/conversations_controller.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="37" lean-forward="false" selection-start-line="1" selection-start-column="37" selection-end-line="1" selection-end-column="37" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_conversation.html.erb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/conversations/_conversation.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="15" lean-forward="false" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html.erb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/conversations/index.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="35" column="18" lean-forward="false" selection-start-line="35" selection-start-column="18" selection-end-line="35" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.html.erb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1170">
-              <caret line="78" column="32" lean-forward="true" selection-start-line="78" selection-start-column="32" selection-end-line="78" selection-end-column="32" />
+            <state relative-caret-position="45">
+              <caret line="3" column="15" lean-forward="false" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
               <folding />
             </state>
           </provider>
@@ -197,6 +443,8 @@
     <findStrings>
       <find>omn</find>
       <find>rak</find>
+      <find>stub!</find>
+      <find>should</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -205,50 +453,16 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/models/sport.rb" />
-        <option value="$PROJECT_DIR$/app/views/accounts/_form.html.erb" />
-        <option value="$PROJECT_DIR$/config/initializers/stripe.rb" />
-        <option value="$PROJECT_DIR$/config/application.yml" />
-        <option value="$PROJECT_DIR$/app/assets/javascripts/components/sports.js.jsx" />
-        <option value="$PROJECT_DIR$/app/assets/javascripts/components/sport.js.jsx" />
-        <option value="$PROJECT_DIR$/app/controllers/accounts_controller.rb" />
-        <option value="$PROJECT_DIR$/app/views/accounts/show.html.erb" />
-        <option value="$PROJECT_DIR$/app/models/concerns/filterable.rb" />
-        <option value="$PROJECT_DIR$/app/views/profiles/search.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/searches/new.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/searches/searches.js.erb" />
-        <option value="$PROJECT_DIR$/app/views/searches/show.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/searches/create.js.erb" />
-        <option value="$PROJECT_DIR$/app/models/profile_sport.rb" />
-        <option value="$PROJECT_DIR$/db/migrate/20161213224734_create_conversations.rb" />
-        <option value="$PROJECT_DIR$/db/migrate/20161213224913_create_messages.rb" />
-        <option value="$PROJECT_DIR$/app/models/conversation.rb" />
-        <option value="$PROJECT_DIR$/app/models/message.rb" />
-        <option value="$PROJECT_DIR$/app/views/searches/index.html.erb" />
-        <option value="$PROJECT_DIR$/app/channels/messaging_channel.rb" />
-        <option value="$PROJECT_DIR$/app/views/messages/create.js.erb" />
-        <option value="$PROJECT_DIR$/app/views/messages/_message.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/conversations/_conversation.html.erb" />
-        <option value="$PROJECT_DIR$/app/controllers/users/sessions_controller.rb" />
-        <option value="$PROJECT_DIR$/app/assets/javascripts/channels/messaging.js" />
-        <option value="$PROJECT_DIR$/app/views/messages/index.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/devise/sessions/new.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/devise/registrations/new.html.erb" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/application.scss" />
         <option value="$PROJECT_DIR$/app/views/devise/registrations/_register.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/devise/shared/_links.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/profiles.scss" />
         <option value="$PROJECT_DIR$/app/controllers/profiles_controller.rb" />
-        <option value="$PROJECT_DIR$/app/views/profiles/show.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/searches_controller.rb" />
         <option value="$PROJECT_DIR$/app/models/search.rb" />
         <option value="$PROJECT_DIR$/app/views/searches/_new.html.erb" />
         <option value="$PROJECT_DIR$/app/views/profiles/_profile.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/controllers/images_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/images/index.html.erb" />
-        <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/models/profile.rb" />
         <option value="$PROJECT_DIR$/app/models/ability.rb" />
         <option value="$PROJECT_DIR$/app/controllers/messages_controller.rb" />
@@ -256,6 +470,40 @@
         <option value="$PROJECT_DIR$/app/controllers/conversations_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/conversations/index.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
+        <option value="$PROJECT_DIR$/features/step_definitions/user_steps.rb" />
+        <option value="$PROJECT_DIR$/app/views/devise/shared/_links.html.erb" />
+        <option value="$PROJECT_DIR$/app/uploaders/images_uploader.rb" />
+        <option value="$PROJECT_DIR$/app/models/user.rb" />
+        <option value="$PROJECT_DIR$/config/environments/test.rb" />
+        <option value="$PROJECT_DIR$/spec/models/image_spec.rb" />
+        <option value="$PROJECT_DIR$/spec/support/omniauth.rb" />
+        <option value="$PROJECT_DIR$/spec/controllers/omniauth_callbacks_controller_spec.rb" />
+        <option value="$PROJECT_DIR$/features/step_definitions/profile_steps.rb" />
+        <option value="$PROJECT_DIR$/spec/support/fake_stripe.rb" />
+        <option value="$PROJECT_DIR$/spec/rails_helper.rb" />
+        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+        <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/spec/spec_helper.rb" />
+        <option value="$PROJECT_DIR$/spec/support/share_db_connection.rb" />
+        <option value="$PROJECT_DIR$/features/support/env.rb" />
+        <option value="$PROJECT_DIR$/spec/factories/user_factory.rb" />
+        <option value="$PROJECT_DIR$/features/support/poltergeist.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/accounts_controller.rb" />
+        <option value="$PROJECT_DIR$/features/step_definitions/account_steps.rb" />
+        <option value="$PROJECT_DIR$/features/user.feature" />
+        <option value="$PROJECT_DIR$/spec/controllers/accounts_controller_spec.rb" />
+        <option value="$PROJECT_DIR$/spec/models/user_spec.rb" />
+        <option value="$PROJECT_DIR$/spec/controllers/searches_controller_spec.rb" />
+        <option value="$PROJECT_DIR$/app/views/profiles/show.html.erb" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/application.scss" />
+        <option value="$PROJECT_DIR$/features/profile.feature" />
+        <option value="$PROJECT_DIR$/spec/controllers/profiles_controller_spec.rb" />
+        <option value="$PROJECT_DIR$/features/step_definitions/util_steps.rb" />
+        <option value="$PROJECT_DIR$/coverage/index.html" />
+        <option value="$PROJECT_DIR$/app/controllers/users_controller.rb" />
+        <option value="$PROJECT_DIR$/spec/controllers/registrations_controller_spec.rb" />
+        <option value="$PROJECT_DIR$/spec/controllers/users_controller_spec.rb" />
+        <option value="$PROJECT_DIR$/features/account.feature" />
       </list>
     </option>
   </component>
@@ -279,8 +527,9 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="900" />
+    <option name="height" value="815" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -325,33 +574,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WorkoutBuddy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WorkoutBuddy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layouts" />
+              <option name="myItemId" value="coverage" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -401,6 +624,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WorkoutBuddy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WorkoutBuddy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -423,7 +664,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="javascripts" />
+              <option name="myItemId" value="images" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -440,10 +681,13 @@
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="PostgreSQL" />
     <property name="Ruby.ViewRefParam.DefaultExtension" value="html.erb" />
-    <property name="FullScreen" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/spec/fixtures/files" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/features/support" />
       <recent name="$PROJECT_DIR$/app/views/layouts" />
       <recent name="$PROJECT_DIR$/app/views/devise/sessions" />
     </key>
@@ -746,58 +990,58 @@
       <updated>1481026621465</updated>
       <workItem from="1481026623037" duration="34305000" />
       <workItem from="1481129138822" duration="61027000" />
-      <workItem from="1481652483919" duration="37373000" />
+      <workItem from="1481652483919" duration="87246000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_tests_in_spec__WorkoutBuddy - 2016.12.06 at 23h 40m 32s.xml">
-      <configuration name="All tests in spec: WorkoutBuddy" configurationId="TestUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Unnamed - 2016.12.06 at 21h 58m 33s.xml">
+    <history-entry file="Unnamed - 2016.12.15 at 12h 16m 02s.xml">
       <configuration name="Unnamed" configurationId="CucumberRunConfigurationType" />
     </history-entry>
-    <history-entry file="Unnamed - 2016.12.14 at 15h 26m 42s.xml">
+    <history-entry file="Unnamed - 2016.12.15 at 12h 16m 17s.xml">
       <configuration name="Unnamed" configurationId="CucumberRunConfigurationType" />
     </history-entry>
-    <history-entry file="user_feature - 2016.12.06 at 13h 48m 51s.xml">
-      <configuration name="user.feature" configurationId="CucumberRunConfigurationType" />
+    <history-entry file="Unnamed - 2016.12.15 at 12h 37m 18s.xml">
+      <configuration name="Unnamed" configurationId="CucumberRunConfigurationType" />
     </history-entry>
-    <history-entry file="user_feature - 2016.12.06 at 21h 19m 54s.xml">
-      <configuration name="user.feature" configurationId="CucumberRunConfigurationType" />
+    <history-entry file="Unnamed - 2016.12.15 at 12h 38m 46s.xml">
+      <configuration name="Unnamed" configurationId="CucumberRunConfigurationType" />
     </history-entry>
-    <history-entry file="user_feature - 2016.12.06 at 21h 22m 50s.xml">
-      <configuration name="user.feature" configurationId="CucumberRunConfigurationType" />
+    <history-entry file="Unnamed - 2016.12.15 at 14h 07m 04s.xml">
+      <configuration name="Unnamed" configurationId="CucumberRunConfigurationType" />
     </history-entry>
-    <history-entry file="user_feature - 2016.12.06 at 21h 26m 11s.xml">
-      <configuration name="user.feature" configurationId="CucumberRunConfigurationType" />
+    <history-entry file="Unnamed - 2016.12.15 at 14h 24m 01s.xml">
+      <configuration name="Unnamed" configurationId="CucumberRunConfigurationType" />
     </history-entry>
-    <history-entry file="user_feature - 2016.12.06 at 21h 45m 15s.xml">
-      <configuration name="user.feature" configurationId="CucumberRunConfigurationType" />
+    <history-entry file="Unnamed - 2016.12.15 at 16h 15m 46s.xml">
+      <configuration name="Unnamed" configurationId="CucumberRunConfigurationType" />
     </history-entry>
-    <history-entry file="user_feature - 2016.12.06 at 21h 48m 41s.xml">
-      <configuration name="user.feature" configurationId="CucumberRunConfigurationType" />
+    <history-entry file="Unnamed - 2016.12.15 at 16h 28m 16s.xml">
+      <configuration name="Unnamed" configurationId="CucumberRunConfigurationType" />
     </history-entry>
-    <history-entry file="user_feature - 2016.12.06 at 21h 55m 34s.xml">
-      <configuration name="user.feature" configurationId="CucumberRunConfigurationType" />
+    <history-entry file="Unnamed - 2016.12.15 at 19h 23m 22s.xml">
+      <configuration name="Unnamed" configurationId="CucumberRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Unnamed - 2016.12.15 at 19h 23m 24s.xml">
+      <configuration name="Unnamed" configurationId="CucumberRunConfigurationType" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="132705000" />
+    <option name="totallyTimeSpent" value="182578000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="false" />
+    <frame x="0" y="23" width="1440" height="815" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1988555" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.50858366" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.5114449" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.4914163" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.48855507" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32891566" sideWeight="0.49570817" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37759337" sideWeight="0.490701" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -819,9 +1063,9 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.4914163" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32891566" sideWeight="0.49570817" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2553648" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1988555" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -858,386 +1102,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/db/migrate/20161213224913_create_messages.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/conversation.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="3" lean-forward="false" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/message.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="3" lean-forward="false" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/profile_sport.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="19" lean-forward="false" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/user.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/searches/show.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="8" lean-forward="false" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/conversations.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/channels/messaging_channel.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/channels/application_cable/connection.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/channels/application_cable/channel.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/messages/create.js.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/home/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/users/sessions_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="15" lean-forward="false" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/coverage/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-930">
-          <caret line="10" column="2" lean-forward="true" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/4f6b9b/0cff4e3c-dd49-49b1-b4b9-8f2c8a9ad8c0/WorkoutBuddy_development.public.profiles">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/4f6b9b/0cff4e3c-dd49-49b1-b4b9-8f2c8a9ad8c0/WorkoutBuddy_development.public.profile_sports">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/4f6b9b/0cff4e3c-dd49-49b1-b4b9-8f2c8a9ad8c0/WorkoutBuddy_development.public.images">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/4f6b9b/0cff4e3c-dd49-49b1-b4b9-8f2c8a9ad8c0/WorkoutBuddy_development.public.users">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/messages/_message.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="31" column="10" lean-forward="false" selection-start-line="31" selection-start-column="10" selection-end-line="31" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/devise/shared/_links.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/devise/sessions/new.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="9" lean-forward="true" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/channels/messaging.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/devise/registrations/_register.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/devise/registrations/edit.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/devise/registrations/new.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="8" lean-forward="false" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/messages/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="18" lean-forward="true" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-440">
-          <caret line="38" column="15" lean-forward="true" selection-start-line="38" selection-start-column="15" selection-end-line="38" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/profiles.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="67" column="15" lean-forward="false" selection-start-line="67" selection-start-column="15" selection-end-line="67" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/profiles_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
-          <caret line="46" column="82" lean-forward="false" selection-start-line="46" selection-start-column="82" selection-end-line="46" selection-end-column="82" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/search.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/searches_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="64" lean-forward="false" selection-start-line="10" selection-start-column="64" selection-end-line="10" selection-end-column="64" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/profiles/_profile.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="20" column="45" lean-forward="false" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/searches/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="6" lean-forward="true" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/searches/create.js.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/images_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="5" lean-forward="false" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/images/show.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-275">
-          <caret line="23" column="29" lean-forward="false" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/searches/_new.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="13" column="64" lean-forward="false" selection-start-line="13" selection-start-column="64" selection-end-line="13" selection-end-column="64" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/profiles/show.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1322">
-          <caret line="101" column="20" lean-forward="false" selection-start-line="101" selection-start-column="20" selection-end-line="101" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/image.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="14" lean-forward="false" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/images/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="54" column="44" lean-forward="false" selection-start-line="54" selection-start-column="44" selection-end-line="54" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/profile.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="439">
-          <caret line="82" column="0" lean-forward="false" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/ability.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="23" lean-forward="true" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/messages_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-131">
-          <caret line="2" column="20" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/conversations_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -1262,27 +1126,670 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/views/devise/shared/_links.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1170">
-          <caret line="78" column="32" lean-forward="true" selection-start-line="78" selection-start-column="32" selection-end-line="78" selection-end-column="32" />
+        <state relative-caret-position="375">
+          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20161206122919_devise_create_users.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20161206220308_create_profiles.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20161208002812_create_images.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/schema.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1275">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/uploaders/images_uploader.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="4" lean-forward="false" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20161206125547_add_username_to_users.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/environments/test.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="52" lean-forward="false" selection-start-line="9" selection-start-column="52" selection-end-line="9" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/support/omniauth.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="439">
+          <caret line="39" column="3" lean-forward="false" selection-start-line="39" selection-start-column="3" selection-end-line="39" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/controllers/omniauth_callbacks_controller_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/user.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" column="58" lean-forward="false" selection-start-line="5" selection-start-column="58" selection-end-line="5" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/step_definitions/profile_steps.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/initializers/stripe.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/support/fake_stripe.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="3" lean-forward="false" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/cucumber.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        <state relative-caret-position="457">
+          <caret line="54" column="63" lean-forward="false" selection-start-line="54" selection-start-column="63" selection-end-line="54" selection-end-column="63" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="430">
+          <caret line="105" column="0" lean-forward="false" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/support/share_db_connection.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="68" lean-forward="false" selection-start-line="11" selection-start-column="68" selection-end-line="11" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/support/factory_girl.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/factories/user_factory.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="5" lean-forward="false" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/4f6b9b/0cff4e3c-dd49-49b1-b4b9-8f2c8a9ad8c0/WorkoutBuddy_development.public.accounts">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/support/env.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="21" lean-forward="true" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/support/poltergeist.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/step_definitions/user_steps.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/accounts_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="5" lean-forward="false" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/rails_helper.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-90">
+          <caret line="26" column="65" lean-forward="false" selection-start-line="26" selection-start-column="65" selection-end-line="26" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/spec_helper.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="35" column="29" lean-forward="true" selection-start-line="35" selection-start-column="29" selection-end-line="35" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/models/user_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/searches_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/search.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="15" lean-forward="false" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/profiles/_profile.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="35" column="1" lean-forward="false" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/profiles/show.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="430">
+          <caret line="135" column="44" lean-forward="false" selection-start-line="135" selection-start-column="44" selection-end-line="135" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/user.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="439">
+          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/step_definitions/account_steps.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="3" lean-forward="false" selection-start-line="24" selection-start-column="3" selection-end-line="24" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/profile.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="424">
+          <caret line="68" column="0" lean-forward="false" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/controllers/accounts_controller_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
-          <caret line="19" column="2" lean-forward="false" selection-start-line="19" selection-start-column="2" selection-end-line="19" selection-end-column="2" />
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/profiles_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="43" column="5" lean-forward="false" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/step_definitions/util_steps.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/controllers/searches_controller_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="4" selection-start-column="4" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/controllers/profiles_controller_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="23" lean-forward="false" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/models/image_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="3" lean-forward="false" selection-start-line="24" selection-start-column="3" selection-end-line="24" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/users_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="15" lean-forward="false" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/controllers/users_controller_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="49" lean-forward="false" selection-start-line="14" selection-start-column="49" selection-end-line="14" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/account.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="29" column="37" lean-forward="false" selection-start-line="29" selection-start-column="37" selection-end-line="29" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/controllers/registrations_controller_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-73">
+          <caret line="14" column="51" lean-forward="false" selection-start-line="14" selection-start-column="51" selection-end-line="14" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/coverage/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="26" column="25" lean-forward="true" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
+          <folding>
+            <element signature="e#35584#35588#0" expanded="true" />
+            <element signature="e#36743#36747#0" expanded="true" />
+            <element signature="e#37938#37942#0" expanded="true" />
+            <element signature="e#38283#38289#0" expanded="true" />
+            <element signature="e#38306#38312#0" expanded="true" />
+            <element signature="e#39894#39898#0" expanded="true" />
+            <element signature="e#43402#43406#0" expanded="true" />
+            <element signature="e#43407#43412#0" expanded="true" />
+            <element signature="e#43421#43426#0" expanded="true" />
+            <element signature="e#45582#45586#0" expanded="true" />
+            <element signature="e#48328#48332#0" expanded="true" />
+            <element signature="e#52055#52059#0" expanded="true" />
+            <element signature="e#52060#52066#0" expanded="true" />
+            <element signature="e#52080#52086#0" expanded="true" />
+            <element signature="e#53808#53812#0" expanded="true" />
+            <element signature="e#55052#55056#0" expanded="true" />
+            <element signature="e#57228#57232#0" expanded="true" />
+            <element signature="e#58532#58536#0" expanded="true" />
+            <element signature="e#61474#61478#0" expanded="true" />
+            <element signature="e#62623#62627#0" expanded="true" />
+            <element signature="e#66541#66547#0" expanded="true" />
+            <element signature="e#66564#66570#0" expanded="true" />
+            <element signature="e#70174#70178#0" expanded="true" />
+            <element signature="e#73010#73016#0" expanded="true" />
+            <element signature="e#73017#73023#0" expanded="true" />
+            <element signature="e#73029#73034#0" expanded="true" />
+            <element signature="e#73910#73914#0" expanded="true" />
+            <element signature="e#73914#73918#0" expanded="true" />
+            <element signature="e#74441#74446#0" expanded="true" />
+            <element signature="e#74452#74457#0" expanded="true" />
+            <element signature="e#76284#76288#0" expanded="true" />
+            <element signature="e#79262#79266#0" expanded="true" />
+            <element signature="e#79771#79777#0" expanded="true" />
+            <element signature="e#79792#79798#0" expanded="true" />
+            <element signature="e#84087#84091#0" expanded="true" />
+            <element signature="e#84521#84527#0" expanded="true" />
+            <element signature="e#84540#84546#0" expanded="true" />
+            <element signature="e#85088#85092#0" expanded="true" />
+            <element signature="e#85325#85329#0" expanded="true" />
+            <element signature="e#85330#85336#0" expanded="true" />
+            <element signature="e#85344#85350#0" expanded="true" />
+            <element signature="e#85677#85683#0" expanded="true" />
+            <element signature="e#85703#85709#0" expanded="true" />
+            <element signature="e#85725#85731#0" expanded="true" />
+            <element signature="e#85744#85750#0" expanded="true" />
+            <element signature="e#87670#87674#0" expanded="true" />
+            <element signature="e#97945#97949#0" expanded="true" />
+            <element signature="e#102384#102388#0" expanded="true" />
+            <element signature="e#103418#103422#0" expanded="true" />
+            <element signature="e#111429#111433#0" expanded="true" />
+            <element signature="e#112199#112203#0" expanded="true" />
+            <element signature="e#112380#112385#0" expanded="true" />
+            <element signature="e#112401#112406#0" expanded="true" />
+            <element signature="e#112557#112562#0" expanded="true" />
+            <element signature="e#112568#112573#0" expanded="true" />
+            <element signature="e#118595#118599#0" expanded="true" />
+            <element signature="e#120052#120056#0" expanded="true" />
+            <element signature="e#121040#121044#0" expanded="true" />
+            <element signature="e#121999#122003#0" expanded="true" />
+            <element signature="e#122340#122344#0" expanded="true" />
+            <element signature="e#122369#122375#0" expanded="true" />
+            <element signature="e#122379#122385#0" expanded="true" />
+            <element signature="e#122565#122569#0" expanded="true" />
+            <element signature="e#122597#122603#0" expanded="true" />
+            <element signature="e#122607#122613#0" expanded="true" />
+            <element signature="e#123124#123128#0" expanded="true" />
+            <element signature="e#123444#123448#0" expanded="true" />
+            <element signature="e#123627#123633#0" expanded="true" />
+            <element signature="e#123763#123769#0" expanded="true" />
+            <element signature="e#124874#124878#0" expanded="true" />
+            <element signature="e#126304#126308#0" expanded="true" />
+            <element signature="e#127457#127463#0" expanded="true" />
+            <element signature="e#127483#127489#0" expanded="true" />
+            <element signature="e#128397#128401#0" expanded="true" />
+            <element signature="e#130228#130234#0" expanded="true" />
+            <element signature="e#130238#130244#0" expanded="true" />
+            <element signature="e#130387#130393#0" expanded="true" />
+            <element signature="e#130405#130411#0" expanded="true" />
+            <element signature="e#130554#130560#0" expanded="true" />
+            <element signature="e#130569#130575#0" expanded="true" />
+            <element signature="e#130718#130724#0" expanded="true" />
+            <element signature="e#130731#130737#0" expanded="true" />
+            <element signature="e#130880#130886#0" expanded="true" />
+            <element signature="e#130901#130907#0" expanded="true" />
+            <element signature="e#131050#131056#0" expanded="true" />
+            <element signature="e#131070#131076#0" expanded="true" />
+            <element signature="e#131219#131225#0" expanded="true" />
+            <element signature="e#131232#131238#0" expanded="true" />
+            <element signature="e#131381#131387#0" expanded="true" />
+            <element signature="e#131395#131401#0" expanded="true" />
+            <element signature="e#131544#131550#0" expanded="true" />
+            <element signature="e#131559#131565#0" expanded="true" />
+            <element signature="e#131708#131714#0" expanded="true" />
+            <element signature="e#131719#131725#0" expanded="true" />
+            <element signature="e#131868#131874#0" expanded="true" />
+            <element signature="e#131882#131888#0" expanded="true" />
+            <element signature="e#132031#132037#0" expanded="true" />
+            <element signature="e#132050#132056#0" expanded="true" />
+            <element signature="e#132199#132205#0" expanded="true" />
+            <element signature="e#132218#132224#0" expanded="true" />
+            <element signature="e#132367#132373#0" expanded="true" />
+            <element signature="e#132384#132390#0" expanded="true" />
+            <element signature="e#132533#132539#0" expanded="true" />
+            <element signature="e#132555#132561#0" expanded="true" />
+            <element signature="e#132704#132710#0" expanded="true" />
+            <element signature="e#132728#132734#0" expanded="true" />
+            <element signature="e#132877#132883#0" expanded="true" />
+            <element signature="e#132896#132902#0" expanded="true" />
+            <element signature="e#133045#133051#0" expanded="true" />
+            <element signature="e#133058#133064#0" expanded="true" />
+            <element signature="e#133207#133213#0" expanded="true" />
+            <element signature="e#133223#133229#0" expanded="true" />
+            <element signature="e#133372#133378#0" expanded="true" />
+            <element signature="e#133383#133389#0" expanded="true" />
+            <element signature="e#133532#133538#0" expanded="true" />
+            <element signature="e#133544#133550#0" expanded="true" />
+            <element signature="e#133693#133699#0" expanded="true" />
+            <element signature="e#133720#133726#0" expanded="true" />
+            <element signature="e#133869#133875#0" expanded="true" />
+            <element signature="e#133881#133887#0" expanded="true" />
+            <element signature="e#134030#134036#0" expanded="true" />
+            <element signature="e#134041#134047#0" expanded="true" />
+            <element signature="e#134190#134196#0" expanded="true" />
+            <element signature="e#134207#134213#0" expanded="true" />
+            <element signature="e#134356#134362#0" expanded="true" />
+            <element signature="e#134367#134373#0" expanded="true" />
+            <element signature="e#134516#134522#0" expanded="true" />
+            <element signature="e#134526#134532#0" expanded="true" />
+            <element signature="e#134675#134681#0" expanded="true" />
+            <element signature="e#134696#134702#0" expanded="true" />
+            <element signature="e#134845#134851#0" expanded="true" />
+            <element signature="e#134859#134865#0" expanded="true" />
+            <element signature="e#135008#135014#0" expanded="true" />
+            <element signature="e#135032#135038#0" expanded="true" />
+            <element signature="e#135181#135187#0" expanded="true" />
+            <element signature="e#135192#135198#0" expanded="true" />
+            <element signature="e#135341#135347#0" expanded="true" />
+            <element signature="e#135361#135367#0" expanded="true" />
+            <element signature="e#135510#135516#0" expanded="true" />
+            <element signature="e#135525#135531#0" expanded="true" />
+            <element signature="e#135674#135680#0" expanded="true" />
+            <element signature="e#135693#135699#0" expanded="true" />
+            <element signature="e#135842#135848#0" expanded="true" />
+            <element signature="e#135861#135867#0" expanded="true" />
+            <element signature="e#136010#136016#0" expanded="true" />
+            <element signature="e#136037#136043#0" expanded="true" />
+            <element signature="e#136186#136192#0" expanded="true" />
+            <element signature="e#136202#136208#0" expanded="true" />
+            <element signature="e#136351#136357#0" expanded="true" />
+            <element signature="e#136370#136376#0" expanded="true" />
+            <element signature="e#136519#136525#0" expanded="true" />
+            <element signature="e#136529#136535#0" expanded="true" />
+            <element signature="e#136678#136684#0" expanded="true" />
+            <element signature="e#136694#136700#0" expanded="true" />
+            <element signature="e#136843#136849#0" expanded="true" />
+            <element signature="e#136863#136869#0" expanded="true" />
+            <element signature="e#137012#137018#0" expanded="true" />
+            <element signature="e#137030#137036#0" expanded="true" />
+            <element signature="e#137179#137185#0" expanded="true" />
+            <element signature="e#137192#137198#0" expanded="true" />
+            <element signature="e#137341#137347#0" expanded="true" />
+            <element signature="e#137357#137363#0" expanded="true" />
+            <element signature="e#137506#137512#0" expanded="true" />
+            <element signature="e#137525#137531#0" expanded="true" />
+            <element signature="e#137674#137680#0" expanded="true" />
+            <element signature="e#137687#137693#0" expanded="true" />
+            <element signature="e#137836#137842#0" expanded="true" />
+            <element signature="e#137857#137863#0" expanded="true" />
+            <element signature="e#138006#138012#0" expanded="true" />
+            <element signature="e#138028#138034#0" expanded="true" />
+            <element signature="e#138177#138183#0" expanded="true" />
+            <element signature="e#138197#138203#0" expanded="true" />
+            <element signature="e#138346#138352#0" expanded="true" />
+            <element signature="e#138367#138373#0" expanded="true" />
+            <element signature="e#138516#138522#0" expanded="true" />
+            <element signature="e#138533#138539#0" expanded="true" />
+            <element signature="e#138682#138688#0" expanded="true" />
+            <element signature="e#138693#138699#0" expanded="true" />
+            <element signature="e#138842#138848#0" expanded="true" />
+            <element signature="e#138855#138861#0" expanded="true" />
+            <element signature="e#139004#139010#0" expanded="true" />
+            <element signature="e#139020#139026#0" expanded="true" />
+            <element signature="e#139169#139175#0" expanded="true" />
+            <element signature="e#139183#139189#0" expanded="true" />
+            <element signature="e#139332#139338#0" expanded="true" />
+            <element signature="e#139353#139359#0" expanded="true" />
+            <element signature="e#139502#139508#0" expanded="true" />
+            <element signature="e#139523#139529#0" expanded="true" />
+            <element signature="e#139672#139678#0" expanded="true" />
+            <element signature="e#139691#139697#0" expanded="true" />
+            <element signature="e#139840#139846#0" expanded="true" />
+            <element signature="e#139857#139863#0" expanded="true" />
+            <element signature="e#140006#140012#0" expanded="true" />
+            <element signature="e#140019#140025#0" expanded="true" />
+            <element signature="e#140168#140174#0" expanded="true" />
+            <element signature="e#140180#140186#0" expanded="true" />
+            <element signature="e#140329#140335#0" expanded="true" />
+            <element signature="e#140342#140348#0" expanded="true" />
+            <element signature="e#140491#140497#0" expanded="true" />
+            <element signature="e#140510#140516#0" expanded="true" />
+            <element signature="e#140659#140665#0" expanded="true" />
+            <element signature="e#140677#140683#0" expanded="true" />
+            <element signature="e#140826#140832#0" expanded="true" />
+            <element signature="e#140846#140852#0" expanded="true" />
+            <element signature="e#140995#141001#0" expanded="true" />
+            <element signature="e#141014#141020#0" expanded="true" />
+            <element signature="e#141163#141169#0" expanded="true" />
+            <element signature="e#141180#141186#0" expanded="true" />
+            <element signature="e#141329#141335#0" expanded="true" />
+            <element signature="e#141349#141355#0" expanded="true" />
+            <element signature="e#141498#141504#0" expanded="true" />
+            <element signature="e#141513#141519#0" expanded="true" />
+            <element signature="e#141662#141668#0" expanded="true" />
+            <element signature="e#141682#141688#0" expanded="true" />
+            <element signature="e#142883#142887#0" expanded="true" />
+            <element signature="e#144011#144015#0" expanded="true" />
+            <element signature="e#144868#144874#0" expanded="true" />
+            <element signature="e#144884#144890#0" expanded="true" />
+            <element signature="e#145087#145093#0" expanded="true" />
+            <element signature="e#145103#145109#0" expanded="true" />
+            <element signature="e#145306#145311#0" expanded="true" />
+            <element signature="e#145322#145327#0" expanded="true" />
+            <element signature="e#145526#145531#0" expanded="true" />
+            <element signature="e#145535#145539#0" expanded="true" />
+            <element signature="e#145542#145547#0" expanded="true" />
+            <element signature="e#145747#145752#0" expanded="true" />
+            <element signature="e#145756#145760#0" expanded="true" />
+            <element signature="e#145763#145768#0" expanded="true" />
+            <element signature="e#146998#147002#0" expanded="true" />
+            <element signature="e#148183#148187#0" expanded="true" />
+            <element signature="e#149209#149213#0" expanded="true" />
+            <element signature="e#150880#150886#0" expanded="true" />
+            <element signature="e#150906#150912#0" expanded="true" />
+            <element signature="e#150914#150919#0" expanded="true" />
+            <element signature="e#150919#150924#0" expanded="true" />
+            <element signature="e#150933#150939#0" expanded="true" />
+            <element signature="e#150959#150965#0" expanded="true" />
+            <element signature="e#150967#150973#0" expanded="true" />
+            <element signature="e#150978#150984#0" expanded="true" />
+            <element signature="e#150986#150992#0" expanded="true" />
+            <element signature="e#151000#151006#0" expanded="true" />
+            <element signature="e#151173#151179#0" expanded="true" />
+            <element signature="e#151184#151190#0" expanded="true" />
+            <element signature="e#152190#152196#0" expanded="true" />
+            <element signature="e#152204#152210#0" expanded="true" />
+            <element signature="e#152223#152229#0" expanded="true" />
+            <element signature="e#152232#152238#0" expanded="true" />
+            <element signature="e#152459#152465#0" expanded="true" />
+            <element signature="e#152469#152475#0" expanded="true" />
+            <element signature="e#152477#152483#0" expanded="true" />
+            <element signature="e#152488#152494#0" expanded="true" />
+            <element signature="e#152905#152911#0" expanded="true" />
+            <element signature="e#152915#152921#0" expanded="true" />
+            <element signature="e#152923#152929#0" expanded="true" />
+            <element signature="e#152933#152939#0" expanded="true" />
+            <element signature="e#153133#153139#0" expanded="true" />
+            <element signature="e#153143#153149#0" expanded="true" />
+            <element signature="e#153151#153157#0" expanded="true" />
+            <element signature="e#153162#153168#0" expanded="true" />
+            <element signature="e#155757#155761#0" expanded="true" />
+            <element signature="e#158029#158035#0" expanded="true" />
+            <element signature="e#158099#158105#0" expanded="true" />
+            <element signature="e#158585#158590#0" expanded="true" />
+            <element signature="e#159181#159187#0" expanded="true" />
+            <element signature="e#159196#159202#0" expanded="true" />
+            <element signature="e#159220#159226#0" expanded="true" />
+            <element signature="e#159237#159243#0" expanded="true" />
+            <element signature="e#159258#159263#0" expanded="true" />
+            <element signature="e#159264#159269#0" expanded="true" />
+            <element signature="e#159559#159565#0" expanded="true" />
+            <element signature="e#159574#159580#0" expanded="true" />
+            <element signature="e#159598#159604#0" expanded="true" />
+            <element signature="e#159615#159621#0" expanded="true" />
+            <element signature="e#159636#159641#0" expanded="true" />
+            <element signature="e#159642#159647#0" expanded="true" />
+            <element signature="e#163611#163617#0" expanded="true" />
+            <element signature="e#163630#163636#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

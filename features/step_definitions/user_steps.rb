@@ -3,6 +3,7 @@ Given(/^I have sample users$/) do
 	@mavis = User.create(username: "mavis", email: "mavis@test.com", password: "123456")
 end
 
+
 Then(/^My email address should be the same as the facebook email$/) do
 	expect(User.last.email).to eq("email@email.com")
 end
