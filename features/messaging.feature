@@ -12,4 +12,5 @@ Feature: Messaging
       When I click "Message me"
       And I fill in "message_body" with "Hi Mavis, I am Barvis"
       And I click "Add Reply"
+    And I visit "root"
       Then I should have sent a message
