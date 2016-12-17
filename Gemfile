@@ -16,12 +16,13 @@ gem 'coffee-rails', '~> 4.2'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
 gem 'cancancan'
-gem 'cloudinary'
 gem 'devise'
 gem 'bootstrap-sass'
 gem 'semantic-ui-sass'
 gem 'figaro'
 gem 'carrierwave', '>= 1.0.0.rc', '< 2.0'
+gem 'cloudinary'
+
 gem 'dropzonejs-rails'
 # gem 'MiniMagick'
 gem 'stripe'

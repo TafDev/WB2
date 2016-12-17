@@ -3,7 +3,7 @@
 		<% current_user.profile.images.each do |image| %>
 				<a class="red card">
 					<div id="image-<%= image.id %>" class="image select-img">
-						<%= image_tag image.image.url %>
+						<%= image_tag image.image_url %>
 					</div>
 				</a>
 		<% end %>

@@ -8,7 +8,6 @@ class ImagesController < ApplicationController
 
 	def create
 		@image = current_user.profile.images.create(image: params[:file])
-		# @image = Image.new(image: params[:file])
 		if @image.save!
 			respond_to do |format|
 				format.json{ render :json => @image }

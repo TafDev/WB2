@@ -15,6 +15,7 @@
 //= require react_ujs
 //= require components
 //= require semantic-ui
+//= require cloudinary
 //= require dropzone
 //= require jquery_ujs
 // require turbolinks
