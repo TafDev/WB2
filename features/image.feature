@@ -10,7 +10,7 @@ Feature: Image
       And I visit "root"
       And I click "My Gallery"
       When I click "Upload images"
-      And I click css "#media-dropzone"
+#      And I click css "#media-dropzone"
       And I upload an image
       Then I should have an image
 

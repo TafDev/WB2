@@ -1,6 +1,5 @@
 class Search < ApplicationRecord
 	def get_profiles
-
 		profiles = Profile.all
 		profiles = Sport.find(sport).profiles if sport.present?
 		profiles = Profile.where("county = ?", county) if county.present?

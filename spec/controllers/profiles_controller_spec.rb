@@ -3,10 +3,6 @@ require 'rails_helper'
 RSpec.describe ProfilesController, type: :controller do
 	describe "Profile" do
 		before do
-			ProfileSport.destroy_all
-			Sport.destroy_all
-			Profile.destroy_all
-			User.destroy_all
 			@bob = User.create!(username: "Bob", email: "bob@bobland.net", password: "123456", password_confirmation: "123456")
 			@alice = User.create!(username: "Alice", email: "alice@alice.net", password: "123456", password_confirmation: "123456")
 			@mark = User.create!(username: "Mark", email: "mark@mark.net", password: "123456", password_confirmation: "123456")

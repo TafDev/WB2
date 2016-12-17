@@ -1,6 +1,6 @@
 
 Then(/^I should have sent a message$/) do
-	expect(@barvis.conversations.count).to be 1
+	expect(@barvis.messages.count).to be 1
 end
 
 Given(/^"([^"]*)" is premium$/) do |username|

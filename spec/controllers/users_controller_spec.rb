@@ -2,9 +2,6 @@ require 'rails_helper'
 
 RSpec.describe UsersController, type: :controller do
 	before do
-		ProfileSport.destroy_all
-		Profile.destroy_all
-		User.destroy_all
 		@image = File.new(Rails.root + 'spec/fixtures/files/steve.jpg')
 	end
 
