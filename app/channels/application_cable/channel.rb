@@ -1,5 +1,5 @@
 module ApplicationCable
-  class Channel < ActionCable::Channel::Base
+	class Connection < ActionCable::Channel::Base
 	  identified_by :current_user
 
 	  def connect
