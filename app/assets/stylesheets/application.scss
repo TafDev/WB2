@@ -55,7 +55,7 @@
 }
 
 #background {
-  background-image: image_url('bg.png');
+  background-image: cloudinary-url('bg.png');
   //z-index: 1000;
   position: absolute;
   width: 100%;
