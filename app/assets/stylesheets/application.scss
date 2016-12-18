@@ -55,7 +55,7 @@
 }
 
 #background {
-  background-image: cloudinary-url('bg.png');
+  background-image: cloudinary-url('bg.png',  $type: 'upload');
   //z-index: 1000;
   position: absolute;
   width: 100%;
