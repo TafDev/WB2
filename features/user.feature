@@ -29,6 +29,7 @@ Feature: User
     Then I should see "Successfully authenticated from Facebook account."
     And My email address should be the same as the facebook email
 
+    @wip
   @omniauth_test_failure
   Scenario: User has invalid credentials
     Given I visit "new_user_registration"

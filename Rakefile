@@ -6,12 +6,15 @@ require_relative 'config/application'
 Rails.application.load_tasks
 
 
-# task :default => [:spec, :cucumber]
 
 begin
 	require 'rspec/core/rake_task'
 	require 'cucumber/rake/task'
 	RSpec::Core::RakeTask.new(:spec)
 	Cucumber::Rake::Task.new
+
+	task :default => [:spec, :cucumber]
+
 rescue LoadError
 end
+
