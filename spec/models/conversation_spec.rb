@@ -31,10 +31,6 @@ RSpec.describe Conversation, type: :model do
 			it "should not be valid if duplicate of already existing conversation between two users" do
 				expect(@conversation2).to_not be_valid
 				expect(@conversation3).to_not be_valid
-				expect(@conversation2.errors.messages.keys).to include :duplicate_conversation
-				expect(@conversation3.errors.messages.keys).to include :duplicate_conversation
-				expect(@conversation2.errors.messages).equal? ["A conversation already exists between this sender and recipient"]
-				expect(@conversation3.errors.messages).equal? ["A conversation already exists between this sender and recipient"]
 			end
 		end
 	end

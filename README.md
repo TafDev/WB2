@@ -1,24 +1,16 @@
-# README
+# WorkoutBuddy
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Workout buddy is a web application built to help its users find other people to workout with in their vicinity. The idea is that people can sign up and search for users on the application then message them if they feel that the other person can help them with their workouts or motivation
 
-Things you may want to cover:
+#Coverage
 
-* Ruby version
+![alt tag](http://res.cloudinary.com/dxt0wkbxv/image/upload/v1482099214/ea0g3itw3m3xvwdstw61.png "SimpleCov image")
 
-* System dependencies
+#ToDo
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+- Geolocation for users
+- Use the location to list users, closest first
+- Enabling comments for images
+- Enabling likes for images
+- Users log goals 
+- Have a personal trainer as a user

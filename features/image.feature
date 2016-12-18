@@ -4,7 +4,7 @@ Feature: Image
   Background: 
     Given I have sample users
     
-      @selenium
+      @javascript
     Scenario: I upload an image
       Given I am logged in as "Barvis"
       And I visit "root"

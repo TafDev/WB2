@@ -18,6 +18,7 @@ require 'support/factory_girl'
 #
 # See http://rubydoc.info/gems/rspec-core/RSpec/Core/Configuration
 RSpec.configure do |config|
+
 	config.use_transactional_fixtures = false
 	config.include Capybara::DSL
 

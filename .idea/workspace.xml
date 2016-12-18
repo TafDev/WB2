@@ -3,7 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="7f3b3391-9021-49a9-8808-baf9cffd591b" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.travis.yml" afterPath="$PROJECT_DIR$/.travis.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Rakefile" afterPath="$PROJECT_DIR$/Rakefile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/uploaders/images_uploader.rb" afterPath="$PROJECT_DIR$/app/uploaders/images_uploader.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/account.feature" afterPath="$PROJECT_DIR$/features/account.feature" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/image.feature" afterPath="$PROJECT_DIR$/features/image.feature" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/messaging.feature" afterPath="$PROJECT_DIR$/features/messaging.feature" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/controllers/users_controller_spec.rb" afterPath="$PROJECT_DIR$/spec/controllers/users_controller_spec.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/models/conversation_spec.rb" afterPath="$PROJECT_DIR$/spec/models/conversation_spec.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/spec_helper.rb" afterPath="$PROJECT_DIR$/spec/spec_helper.rb" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -64,41 +72,64 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Gemfile" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Gemfile">
+      <file leaf-file-name="users_controller_spec.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spec/controllers/users_controller_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="254">
-              <caret line="40" column="23" lean-forward="false" selection-start-line="40" selection-start-column="23" selection-end-line="40" selection-end-column="23" />
+            <state relative-caret-position="300">
+              <caret line="20" column="39" lean-forward="false" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="user.feature" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/features/user.feature">
+      <file leaf-file-name="user.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/user.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="31" column="8" lean-forward="false" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
+            <state relative-caret-position="-135">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="messaging_steps.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/features/step_definitions/messaging_steps.rb">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/coverage/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+            <state relative-caret-position="135">
+              <caret line="9" column="9" lean-forward="false" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".travis.yml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.travis.yml">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="90">
+                <caret line="6" column="33" lean-forward="false" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="messaging.feature" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/features/messaging.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="14" lean-forward="false" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
+            <state relative-caret-position="255">
+              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="profile.feature" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/features/profile.feature">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-623">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -123,18 +154,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/features/account.feature" />
-        <option value="$PROJECT_DIR$/app/models/ability.rb" />
-        <option value="$PROJECT_DIR$/coverage/index.html" />
-        <option value="$PROJECT_DIR$/app/controllers/searches_controller.rb" />
         <option value="$PROJECT_DIR$/app/controllers/messages_controller.rb" />
         <option value="$PROJECT_DIR$/app/models/message.rb" />
         <option value="$PROJECT_DIR$/app/models/user.rb" />
         <option value="$PROJECT_DIR$/app/models/conversation.rb" />
-        <option value="$PROJECT_DIR$/spec/models/conversation_spec.rb" />
         <option value="$PROJECT_DIR$/features/step_definitions/image_steps.rb" />
         <option value="$PROJECT_DIR$/log/test.log" />
-        <option value="$PROJECT_DIR$/spec/spec_helper.rb" />
         <option value="$PROJECT_DIR$/config/database.yml" />
         <option value="$PROJECT_DIR$/spec/rails_helper.rb" />
         <option value="$PROJECT_DIR$/features/support/env.rb" />
@@ -143,11 +168,8 @@
         <option value="$PROJECT_DIR$/spec/controllers/profiles_controller_spec.rb" />
         <option value="$PROJECT_DIR$/spec/controllers/images_controller_spec.rb" />
         <option value="$PROJECT_DIR$/spec/models/search_spec.rb" />
-        <option value="$PROJECT_DIR$/features/image.feature" />
         <option value="$PROJECT_DIR$/features/step_definitions/messaging_steps.rb" />
         <option value="$PROJECT_DIR$/app/models/search.rb" />
-        <option value="$PROJECT_DIR$/spec/controllers/users_controller_spec.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/users_controller.rb" />
         <option value="$PROJECT_DIR$/.simplecov" />
         <option value="$PROJECT_DIR$/config/environment.rb" />
         <option value="$PROJECT_DIR$/app/views/images/show.html.erb" />
@@ -161,7 +183,6 @@
         <option value="$PROJECT_DIR$/config/initializers/cloudinary.rb" />
         <option value="$PROJECT_DIR$/config/application.yml" />
         <option value="$PROJECT_DIR$/app/controllers/images_controller.rb" />
-        <option value="$PROJECT_DIR$/app/uploaders/images_uploader.rb" />
         <option value="$PROJECT_DIR$/app/views/profiles/show.html.erb" />
         <option value="$PROJECT_DIR$/config/cloudinary.yml" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/profiles.scss" />
@@ -171,9 +192,19 @@
         <option value="$PROJECT_DIR$/app/views/images/index.html.erb" />
         <option value="$PROJECT_DIR$/features/user.feature" />
         <option value="$PROJECT_DIR$/Gemfile" />
-        <option value="$PROJECT_DIR$/features/messaging.feature" />
-        <option value="$PROJECT_DIR$/Rakefile" />
         <option value="$PROJECT_DIR$/.travis.yml" />
+        <option value="$PROJECT_DIR$/spec/models/conversation_spec.rb" />
+        <option value="$PROJECT_DIR$/features/messaging.feature" />
+        <option value="$PROJECT_DIR$/features/account.feature" />
+        <option value="$PROJECT_DIR$/features/image.feature" />
+        <option value="$PROJECT_DIR$/app/uploaders/images_uploader.rb" />
+        <option value="$PROJECT_DIR$/spec/support/spec_test_helper.rb" />
+        <option value="$PROJECT_DIR$/spec/spec_helper.rb" />
+        <option value="$PROJECT_DIR$/spec/controllers/users_controller_spec.rb" />
+        <option value="$PROJECT_DIR$/Rakefile" />
+        <option value="$PROJECT_DIR$/app/controllers/users_controller.rb" />
+        <option value="$PROJECT_DIR$/coverage/index.html" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -241,39 +272,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="features" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WorkoutBuddy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WorkoutBuddy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="features" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="step_definitions" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WorkoutBuddy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WorkoutBuddy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
+              <option name="myItemId" value="coverage" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -288,54 +287,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WorkoutBuddy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WorkoutBuddy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WorkoutBuddy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WorkoutBuddy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="conversations" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -368,6 +319,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -426,6 +381,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WorkoutBuddy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WorkoutBuddy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -785,7 +762,7 @@
       <workItem from="1481652483919" duration="98889000" />
       <workItem from="1481891613061" duration="601000" />
       <workItem from="1481892398655" duration="1809000" />
-      <workItem from="1481894808715" duration="40521000" />
+      <workItem from="1481894808715" duration="48258000" />
     </task>
     <servers />
   </component>
@@ -822,11 +799,11 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="237152000" />
+    <option name="totallyTimeSpent" value="244889000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20529328" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -836,7 +813,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32771084" sideWeight="0.48569384" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3253012" sideWeight="0.48211733" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3253012" sideWeight="0.48211733" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -897,99 +874,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/4f6b9b/0cff4e3c-dd49-49b1-b4b9-8f2c8a9ad8c0/WorkoutBuddy_development.public.images">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="22" lean-forward="false" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/image.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="7" lean-forward="false" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/rails_helper.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="60" column="28" lean-forward="true" selection-start-line="60" selection-start-column="28" selection-end-line="60" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/spec_helper.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="3" lean-forward="false" selection-start-line="32" selection-start-column="3" selection-end-line="32" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/support/env.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/support/share_db_connection.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="17" lean-forward="true" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/devise/registrations/_register.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/devise/registrations/edit.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/devise/registrations/new.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1126,14 +1010,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/uploaders/images_uploader.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="2" lean-forward="false" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/searches/_new.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1222,307 +1098,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/user.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="31" column="8" lean-forward="false" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/images/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
           <caret line="27" column="33" lean-forward="false" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Rakefile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/coverage/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="88" lean-forward="false" selection-start-line="7" selection-start-column="88" selection-end-line="7" selection-end-column="88" />
-          <folding>
-            <element signature="e#31152#31156#0" expanded="true" />
-            <element signature="e#32091#32095#0" expanded="true" />
-            <element signature="e#35399#35403#0" expanded="true" />
-            <element signature="e#35404#35409#0" expanded="true" />
-            <element signature="e#35418#35423#0" expanded="true" />
-            <element signature="e#37447#37451#0" expanded="true" />
-            <element signature="e#40067#40071#0" expanded="true" />
-            <element signature="e#43794#43798#0" expanded="true" />
-            <element signature="e#43799#43805#0" expanded="true" />
-            <element signature="e#43819#43825#0" expanded="true" />
-            <element signature="e#45515#45519#0" expanded="true" />
-            <element signature="e#47088#47092#0" expanded="true" />
-            <element signature="e#49264#49268#0" expanded="true" />
-            <element signature="e#50544#50550#0" expanded="true" />
-            <element signature="e#50574#50580#0" expanded="true" />
-            <element signature="e#51486#51490#0" expanded="true" />
-            <element signature="e#54577#54581#0" expanded="true" />
-            <element signature="e#57518#57524#0" expanded="true" />
-            <element signature="e#57541#57547#0" expanded="true" />
-            <element signature="e#61118#61122#0" expanded="true" />
-            <element signature="e#63686#63692#0" expanded="true" />
-            <element signature="e#63693#63699#0" expanded="true" />
-            <element signature="e#63705#63710#0" expanded="true" />
-            <element signature="e#64474#64478#0" expanded="true" />
-            <element signature="e#64478#64482#0" expanded="true" />
-            <element signature="e#64981#64986#0" expanded="true" />
-            <element signature="e#64992#64997#0" expanded="true" />
-            <element signature="e#66754#66758#0" expanded="true" />
-            <element signature="e#69604#69608#0" expanded="true" />
-            <element signature="e#69956#69962#0" expanded="true" />
-            <element signature="e#69977#69983#0" expanded="true" />
-            <element signature="e#73919#73923#0" expanded="true" />
-            <element signature="e#74297#74303#0" expanded="true" />
-            <element signature="e#74316#74322#0" expanded="true" />
-            <element signature="e#74810#74814#0" expanded="true" />
-            <element signature="e#75019#75023#0" expanded="true" />
-            <element signature="e#75024#75030#0" expanded="true" />
-            <element signature="e#75038#75044#0" expanded="true" />
-            <element signature="e#75373#75379#0" expanded="true" />
-            <element signature="e#75399#75405#0" expanded="true" />
-            <element signature="e#75421#75427#0" expanded="true" />
-            <element signature="e#75440#75446#0" expanded="true" />
-            <element signature="e#77308#77312#0" expanded="true" />
-            <element signature="e#81793#81797#0" expanded="true" />
-            <element signature="e#82672#82676#0" expanded="true" />
-            <element signature="e#90399#90403#0" expanded="true" />
-            <element signature="e#91329#91333#0" expanded="true" />
-            <element signature="e#92262#92266#0" expanded="true" />
-            <element signature="e#92603#92607#0" expanded="true" />
-            <element signature="e#92632#92638#0" expanded="true" />
-            <element signature="e#92642#92648#0" expanded="true" />
-            <element signature="e#92828#92832#0" expanded="true" />
-            <element signature="e#92860#92866#0" expanded="true" />
-            <element signature="e#92870#92876#0" expanded="true" />
-            <element signature="e#93387#93391#0" expanded="true" />
-            <element signature="e#93898#93902#0" expanded="true" />
-            <element signature="e#94081#94087#0" expanded="true" />
-            <element signature="e#94217#94223#0" expanded="true" />
-            <element signature="e#95297#95301#0" expanded="true" />
-            <element signature="e#96675#96679#0" expanded="true" />
-            <element signature="e#98235#98239#0" expanded="true" />
-            <element signature="e#99876#99882#0" expanded="true" />
-            <element signature="e#99886#99892#0" expanded="true" />
-            <element signature="e#100037#100043#0" expanded="true" />
-            <element signature="e#100055#100061#0" expanded="true" />
-            <element signature="e#100206#100212#0" expanded="true" />
-            <element signature="e#100221#100227#0" expanded="true" />
-            <element signature="e#100372#100378#0" expanded="true" />
-            <element signature="e#100385#100391#0" expanded="true" />
-            <element signature="e#100536#100542#0" expanded="true" />
-            <element signature="e#100557#100563#0" expanded="true" />
-            <element signature="e#100708#100714#0" expanded="true" />
-            <element signature="e#100728#100734#0" expanded="true" />
-            <element signature="e#100879#100885#0" expanded="true" />
-            <element signature="e#100892#100898#0" expanded="true" />
-            <element signature="e#101043#101049#0" expanded="true" />
-            <element signature="e#101057#101063#0" expanded="true" />
-            <element signature="e#101208#101214#0" expanded="true" />
-            <element signature="e#101223#101229#0" expanded="true" />
-            <element signature="e#101374#101380#0" expanded="true" />
-            <element signature="e#101385#101391#0" expanded="true" />
-            <element signature="e#101536#101542#0" expanded="true" />
-            <element signature="e#101550#101556#0" expanded="true" />
-            <element signature="e#101701#101707#0" expanded="true" />
-            <element signature="e#101720#101726#0" expanded="true" />
-            <element signature="e#101871#101877#0" expanded="true" />
-            <element signature="e#101890#101896#0" expanded="true" />
-            <element signature="e#102041#102047#0" expanded="true" />
-            <element signature="e#102058#102064#0" expanded="true" />
-            <element signature="e#102209#102215#0" expanded="true" />
-            <element signature="e#102231#102237#0" expanded="true" />
-            <element signature="e#102382#102388#0" expanded="true" />
-            <element signature="e#102406#102412#0" expanded="true" />
-            <element signature="e#102557#102563#0" expanded="true" />
-            <element signature="e#102576#102582#0" expanded="true" />
-            <element signature="e#102727#102733#0" expanded="true" />
-            <element signature="e#102740#102746#0" expanded="true" />
-            <element signature="e#102891#102897#0" expanded="true" />
-            <element signature="e#102907#102913#0" expanded="true" />
-            <element signature="e#103058#103064#0" expanded="true" />
-            <element signature="e#103069#103075#0" expanded="true" />
-            <element signature="e#103220#103226#0" expanded="true" />
-            <element signature="e#103232#103238#0" expanded="true" />
-            <element signature="e#103383#103389#0" expanded="true" />
-            <element signature="e#103410#103416#0" expanded="true" />
-            <element signature="e#103561#103567#0" expanded="true" />
-            <element signature="e#103573#103579#0" expanded="true" />
-            <element signature="e#103724#103730#0" expanded="true" />
-            <element signature="e#103735#103741#0" expanded="true" />
-            <element signature="e#103886#103892#0" expanded="true" />
-            <element signature="e#103903#103909#0" expanded="true" />
-            <element signature="e#104054#104060#0" expanded="true" />
-            <element signature="e#104065#104071#0" expanded="true" />
-            <element signature="e#104216#104222#0" expanded="true" />
-            <element signature="e#104226#104232#0" expanded="true" />
-            <element signature="e#104377#104383#0" expanded="true" />
-            <element signature="e#104398#104404#0" expanded="true" />
-            <element signature="e#104549#104555#0" expanded="true" />
-            <element signature="e#104563#104569#0" expanded="true" />
-            <element signature="e#104714#104720#0" expanded="true" />
-            <element signature="e#104738#104744#0" expanded="true" />
-            <element signature="e#104889#104895#0" expanded="true" />
-            <element signature="e#104900#104906#0" expanded="true" />
-            <element signature="e#105051#105057#0" expanded="true" />
-            <element signature="e#105071#105077#0" expanded="true" />
-            <element signature="e#105222#105228#0" expanded="true" />
-            <element signature="e#105237#105243#0" expanded="true" />
-            <element signature="e#105388#105394#0" expanded="true" />
-            <element signature="e#105407#105413#0" expanded="true" />
-            <element signature="e#105558#105564#0" expanded="true" />
-            <element signature="e#105577#105583#0" expanded="true" />
-            <element signature="e#105728#105734#0" expanded="true" />
-            <element signature="e#105755#105761#0" expanded="true" />
-            <element signature="e#105906#105912#0" expanded="true" />
-            <element signature="e#105922#105928#0" expanded="true" />
-            <element signature="e#106073#106079#0" expanded="true" />
-            <element signature="e#106092#106098#0" expanded="true" />
-            <element signature="e#106243#106249#0" expanded="true" />
-            <element signature="e#106253#106259#0" expanded="true" />
-            <element signature="e#106404#106410#0" expanded="true" />
-            <element signature="e#106420#106426#0" expanded="true" />
-            <element signature="e#106571#106577#0" expanded="true" />
-            <element signature="e#106591#106597#0" expanded="true" />
-            <element signature="e#106742#106748#0" expanded="true" />
-            <element signature="e#106760#106766#0" expanded="true" />
-            <element signature="e#106911#106917#0" expanded="true" />
-            <element signature="e#106924#106930#0" expanded="true" />
-            <element signature="e#107075#107081#0" expanded="true" />
-            <element signature="e#107091#107097#0" expanded="true" />
-            <element signature="e#107242#107248#0" expanded="true" />
-            <element signature="e#107261#107267#0" expanded="true" />
-            <element signature="e#107412#107418#0" expanded="true" />
-            <element signature="e#107425#107431#0" expanded="true" />
-            <element signature="e#107576#107582#0" expanded="true" />
-            <element signature="e#107597#107603#0" expanded="true" />
-            <element signature="e#107748#107754#0" expanded="true" />
-            <element signature="e#107770#107776#0" expanded="true" />
-            <element signature="e#107921#107927#0" expanded="true" />
-            <element signature="e#107941#107947#0" expanded="true" />
-            <element signature="e#108092#108098#0" expanded="true" />
-            <element signature="e#108113#108119#0" expanded="true" />
-            <element signature="e#108264#108270#0" expanded="true" />
-            <element signature="e#108281#108287#0" expanded="true" />
-            <element signature="e#108432#108438#0" expanded="true" />
-            <element signature="e#108443#108449#0" expanded="true" />
-            <element signature="e#108594#108600#0" expanded="true" />
-            <element signature="e#108607#108613#0" expanded="true" />
-            <element signature="e#108758#108764#0" expanded="true" />
-            <element signature="e#108774#108780#0" expanded="true" />
-            <element signature="e#108925#108931#0" expanded="true" />
-            <element signature="e#108939#108945#0" expanded="true" />
-            <element signature="e#109090#109096#0" expanded="true" />
-            <element signature="e#109111#109117#0" expanded="true" />
-            <element signature="e#109262#109268#0" expanded="true" />
-            <element signature="e#109283#109289#0" expanded="true" />
-            <element signature="e#109434#109440#0" expanded="true" />
-            <element signature="e#109453#109459#0" expanded="true" />
-            <element signature="e#109604#109610#0" expanded="true" />
-            <element signature="e#109621#109627#0" expanded="true" />
-            <element signature="e#109772#109778#0" expanded="true" />
-            <element signature="e#109785#109791#0" expanded="true" />
-            <element signature="e#109936#109942#0" expanded="true" />
-            <element signature="e#109948#109954#0" expanded="true" />
-            <element signature="e#110099#110105#0" expanded="true" />
-            <element signature="e#110112#110118#0" expanded="true" />
-            <element signature="e#110263#110269#0" expanded="true" />
-            <element signature="e#110282#110288#0" expanded="true" />
-            <element signature="e#110433#110439#0" expanded="true" />
-            <element signature="e#110451#110457#0" expanded="true" />
-            <element signature="e#110602#110608#0" expanded="true" />
-            <element signature="e#110622#110628#0" expanded="true" />
-            <element signature="e#110773#110779#0" expanded="true" />
-            <element signature="e#110792#110798#0" expanded="true" />
-            <element signature="e#110943#110949#0" expanded="true" />
-            <element signature="e#110960#110966#0" expanded="true" />
-            <element signature="e#111111#111117#0" expanded="true" />
-            <element signature="e#111131#111137#0" expanded="true" />
-            <element signature="e#111282#111288#0" expanded="true" />
-            <element signature="e#111297#111303#0" expanded="true" />
-            <element signature="e#111448#111454#0" expanded="true" />
-            <element signature="e#111468#111474#0" expanded="true" />
-            <element signature="e#112645#112649#0" expanded="true" />
-            <element signature="e#113719#113723#0" expanded="true" />
-            <element signature="e#114434#114440#0" expanded="true" />
-            <element signature="e#114450#114456#0" expanded="true" />
-            <element signature="e#114653#114659#0" expanded="true" />
-            <element signature="e#114669#114675#0" expanded="true" />
-            <element signature="e#114872#114877#0" expanded="true" />
-            <element signature="e#114888#114893#0" expanded="true" />
-            <element signature="e#115092#115097#0" expanded="true" />
-            <element signature="e#115101#115105#0" expanded="true" />
-            <element signature="e#115108#115113#0" expanded="true" />
-            <element signature="e#115312#115317#0" expanded="true" />
-            <element signature="e#115321#115325#0" expanded="true" />
-            <element signature="e#115328#115333#0" expanded="true" />
-            <element signature="e#116531#116535#0" expanded="true" />
-            <element signature="e#117631#117635#0" expanded="true" />
-            <element signature="e#118637#118641#0" expanded="true" />
-            <element signature="e#120670#120676#0" expanded="true" />
-            <element signature="e#120696#120702#0" expanded="true" />
-            <element signature="e#120704#120709#0" expanded="true" />
-            <element signature="e#120709#120714#0" expanded="true" />
-            <element signature="e#120723#120729#0" expanded="true" />
-            <element signature="e#120749#120755#0" expanded="true" />
-            <element signature="e#120757#120763#0" expanded="true" />
-            <element signature="e#120768#120774#0" expanded="true" />
-            <element signature="e#120776#120782#0" expanded="true" />
-            <element signature="e#120790#120796#0" expanded="true" />
-            <element signature="e#120963#120969#0" expanded="true" />
-            <element signature="e#120974#120980#0" expanded="true" />
-            <element signature="e#121932#121938#0" expanded="true" />
-            <element signature="e#121946#121952#0" expanded="true" />
-            <element signature="e#121965#121971#0" expanded="true" />
-            <element signature="e#121974#121980#0" expanded="true" />
-            <element signature="e#122173#122179#0" expanded="true" />
-            <element signature="e#122183#122189#0" expanded="true" />
-            <element signature="e#122191#122197#0" expanded="true" />
-            <element signature="e#122202#122208#0" expanded="true" />
-            <element signature="e#122563#122569#0" expanded="true" />
-            <element signature="e#122573#122579#0" expanded="true" />
-            <element signature="e#122581#122587#0" expanded="true" />
-            <element signature="e#122591#122597#0" expanded="true" />
-            <element signature="e#122763#122769#0" expanded="true" />
-            <element signature="e#122773#122779#0" expanded="true" />
-            <element signature="e#122781#122787#0" expanded="true" />
-            <element signature="e#122792#122798#0" expanded="true" />
-            <element signature="e#125230#125234#0" expanded="true" />
-            <element signature="e#127640#127646#0" expanded="true" />
-            <element signature="e#127710#127716#0" expanded="true" />
-            <element signature="e#128202#128207#0" expanded="true" />
-            <element signature="e#128776#128782#0" expanded="true" />
-            <element signature="e#128791#128797#0" expanded="true" />
-            <element signature="e#128815#128821#0" expanded="true" />
-            <element signature="e#128832#128838#0" expanded="true" />
-            <element signature="e#128853#128858#0" expanded="true" />
-            <element signature="e#128859#128864#0" expanded="true" />
-            <element signature="e#129158#129164#0" expanded="true" />
-            <element signature="e#129173#129179#0" expanded="true" />
-            <element signature="e#129197#129203#0" expanded="true" />
-            <element signature="e#129214#129220#0" expanded="true" />
-            <element signature="e#129235#129240#0" expanded="true" />
-            <element signature="e#129241#129246#0" expanded="true" />
-            <element signature="e#133260#133266#0" expanded="true" />
-            <element signature="e#133279#133285#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/messaging.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="8" lean-forward="false" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
           <folding />
         </state>
       </provider>
@@ -1559,6 +1138,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.travis.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="14" lean-forward="false" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/features/step_definitions/messaging_steps.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -1567,11 +1154,134 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.travis.yml">
+    <entry file="file://$PROJECT_DIR$/spec/models/conversation_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="14" lean-forward="false" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
+        <state relative-caret-position="352">
+          <caret line="32" column="46" lean-forward="false" selection-start-line="32" selection-start-column="46" selection-end-line="32" selection-end-column="46" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/account.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="19" lean-forward="false" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/image.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/profile.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-623">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/support/spec_test_helper.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="21" lean-forward="false" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/spec_helper.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/user.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/uploaders/images_uploader.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/messaging.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/controllers/users_controller_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="39" lean-forward="false" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.simplecov">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Rakefile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="25" lean-forward="true" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/users_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/user.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-135">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/coverage/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="9" lean-forward="false" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="90">
+            <caret line="6" column="33" lean-forward="false" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

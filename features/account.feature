@@ -13,7 +13,7 @@ Feature: Account
       When I click "My Account"
       Then I should see "Workout Buddy Account: Barvis"
 
-        @selenium
+        @javascript
       Scenario: User gets premium
       Given I am logged in as "Barvis"
       And I visit "root"
