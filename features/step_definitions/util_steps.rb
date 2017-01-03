@@ -12,6 +12,10 @@ When(/^I visit "([^"]+)"$/) do |page|
 	visit get_named_route(page)
 end
 
+Then(/^They are redirected to the "([^"]*)" page$/) do |page|
+	expect(current_path).to eq(get_named_route(page))
+end
+
 When(/^I click "([^"]+)"$/) do |text|
 	click_on(text)
 end

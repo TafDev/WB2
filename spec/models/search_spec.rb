@@ -18,5 +18,27 @@ RSpec.describe Search, type: :model do
 			result = @search.get_profiles
 			expect(result.count).to eq 2
 	  end
+
+	  it "should find users by fitness level" do
+		  @search = Search.create!(f_level: "Expert")
+		  result = @search.get_profiles
+		  expect(result.map(&:user)).to include(@bob)
+		  expect(result.count).to eq 1
+	  end
+
+	  it "should find users by county" do
+		  @search = Search.create!(county: "Broxbourne")
+		  result = @search.get_profiles
+		  expect(result.map(&:user)).to include(@mark)
+		  expect(result.map(&:user)).to include(@bob)
+		  expect(result.count).to eq 2
+	  end
+
+	  it "should find users by age" do
+		  @search = Search.create!(min_age: 47)
+		  result = @search.get_profiles
+		  expect(result.map(&:user)).to include(@alice)
+		  expect(result.count).to eq 1
+	  end
   end
 end

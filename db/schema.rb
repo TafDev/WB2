@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20161214154824) do
+ActiveRecord::Schema.define(version: 20161219210720) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -38,6 +38,15 @@ ActiveRecord::Schema.define(version: 20161214154824) do
     t.datetime "created_at",  null: false
     t.datetime "updated_at",  null: false
     t.index ["profile_id"], name: "index_images_on_profile_id", using: :btree
+  end
+
+  create_table "likes", force: :cascade do |t|
+    t.string   "likable_type"
+    t.integer  "likable_id"
+    t.datetime "created_at",   null: false
+    t.datetime "updated_at",   null: false
+    t.integer  "user_id"
+    t.index ["user_id"], name: "index_likes_on_user_id", using: :btree
   end
 
   create_table "messages", force: :cascade do |t|
@@ -113,6 +122,7 @@ ActiveRecord::Schema.define(version: 20161214154824) do
 
   add_foreign_key "accounts", "users"
   add_foreign_key "images", "profiles"
+  add_foreign_key "likes", "users"
   add_foreign_key "profile_sports", "profiles"
   add_foreign_key "profile_sports", "sports"
   add_foreign_key "profiles", "users"

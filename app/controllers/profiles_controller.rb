@@ -1,9 +1,6 @@
 class ProfilesController < ApplicationController
 
 	before_action :find_user, only: [:show, :update]
-	def index
-
-	end
 
 	def show
 		@profile = @user.profile
@@ -21,8 +18,6 @@ class ProfilesController < ApplicationController
 					sports << sport
 				end
 				render json: {sports: sports}
-				# render component: 'Sports', props: { sports: sports }
-
 			end
 		else
 			@profile.update(profile_params)

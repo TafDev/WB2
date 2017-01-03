@@ -1,6 +1,5 @@
 require 'rails_helper'
 
-RSpec.describe User do
 	describe "User" do
 
 		let(:barvis) {create(:user)}
@@ -18,8 +17,13 @@ RSpec.describe User do
 			expect(barvis.account).to be_truthy
 		end
 
+		it "should have a unique username" do
+			@barvis = User.create(username: "Barvis",email: "barvis@test.com", password: "123456")
+			@user = User.new(username: "Barvis", email: "barvis1@test.com", password: "123456")
+			@user.valid?
+			expect(@user.errors[:username]).to include("has already been taken")
+		end
 	end
-end
 
 
 

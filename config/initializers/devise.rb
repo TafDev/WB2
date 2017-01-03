@@ -8,6 +8,9 @@ Devise.setup do |config|
   # by default. You can change it below and use your own secret key.
 	config.secret_key = ENV["SECRET"]
 
+	if Rails.env == 'development' || Rails.env == 'production'
+		config.omniauth :facebook, ENV['FACEBOOK_ID'], ENV['FACEBOOK_SECRET']
+	end
   # ==> Mailer Configuration
   # Configure the e-mail address which will be shown in Devise::Mailer,
   # note that it will be overwritten if you use your own mailer class
@@ -248,7 +251,7 @@ Devise.setup do |config|
   # Add a new OmniAuth provider. Check the wiki for more information on setting
   # up on your models and hooks.
   # config.omniauth :github, 'APP_ID', 'APP_SECRET', scope: 'user,public_repo'
-  config.omniauth :facebook, ENV["FB_APP_ID"], ENV["FB_SECRET"], callback_url: "https://mysterious-ridge-90718.herokuapp.com/users/auth/facebook/callback",
+  config.omniauth :facebook, ENV["FB_APP_ID"], ENV["FB_SECRET"], callback_url: "http:localhost:3000/users/auth/facebook/callback",
                   image_size: 'large'
 
 

@@ -5,11 +5,18 @@ class User < ApplicationRecord
          :recoverable, :rememberable, :trackable, :validatable,
          :omniauthable, :omniauth_providers => [:facebook]
 
+  validates :username,
+            presence: true,
+            uniqueness: true
+
   has_one :profile, dependent: :destroy
   has_one :account, dependent: :destroy
 
   has_many :conversations, foreign_key: :sender_id
   has_many :messages, through: :conversations
+
+  has_many :likes, as: :likable
+  has_many :user_likes, class_name: "Like", foreign_key: :user_id, inverse_of: :user
 
   after_create :make_profile, :make_account
 
@@ -22,6 +29,7 @@ class User < ApplicationRecord
   end
 
   def self.from_omniauth(auth)
+		binding.pry
 	  where(provider: auth["provider"], uid: auth["uid"]).first_or_create do |user|
 		  user.email = auth["info"]["email"]
 		  user.password = Devise.friendly_token[0,20]

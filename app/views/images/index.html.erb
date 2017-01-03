@@ -34,9 +34,25 @@
 						<div class="image">
 							<%= cl_image_tag(image.image_url) %>
 						</div>
-						<div id="img" class="content">
-							<i id="image-<%= image.id %>" class="cancel icon"></i>
-							Delete image
+						<div class="extra">
+							<div id="img" class="content">
+								<% if current_user == image.profile.user %>
+									<i id="image-<%= image.id %>" class="cancel icon"></i>
+								<% end %>
+								<!--<i id="like-image-<%#= image.id %>" class="like icon"></i>-->
+								<%= link_to semantic_icon('like', style: if current_user.user_likes.find_by(likable_id: image.id).nil?
+									                                         "color: grey;"
+									                                       else
+										                                       "color: red;"
+								                                         end
+								            ),
+								            likes_path(likable: {likable_type: "Image", likable_id: image.id}),
+								            id: "image-#{image.id}",
+								            method: :post,
+								            remote: true
+								%>
+								<span id="liked<%= image.id %>"><%= image.likes.count %></span>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -47,9 +63,30 @@
 
 
 <script type="text/javascript" charset="utf-8">
+<% @images.each do |image| %>
 
-    $('#img i').on('click', function () {
-        var id = $(this).attr("id").substring(6, 99);
+      $('#image-<%= image.id %>').on('ajax:success', function (e, response){
+          var count = $('#liked<%= image.id %>');
+          var likes = parseInt(count.html());
+
+          if (response.success == "liked") {
+              console.log(response.success);
+              var c = likes + 1;
+//              debugger
+              $('#image-<%= image.id %> .like').css("color", "red");
+              count.html(c)
+          }
+          else if (response.success == "unliked") {
+              console.log(response.success);
+              var c = likes - 1;
+              $('#image-<%= image.id %> .like').css("color", "grey");
+              count.html(c)
+          }
+      });
+<% end %>
+
+    $('#img .cancel').on('click', function () {
+        var id = $(this).attr("id").substring(6, 999);
         var user_id = <%= current_user.id %>
         console.log(id);
         $.ajax({

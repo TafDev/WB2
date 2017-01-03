@@ -22,6 +22,7 @@ Feature: User
     And I click "Log in"
     Then I should see "Welcome Barvis"
 
+    @wip
   @omniauth_test_success
   Scenario: A user successfully signs in with Facebook
     Given I visit "new_user_registration"
@@ -29,11 +30,6 @@ Feature: User
     Then I should see "Successfully authenticated from Facebook account."
     And My email address should be the same as the facebook email
 
-    @wip
-  @omniauth_test_failure
-  Scenario: User has invalid credentials
-    Given I visit "new_user_registration"
-    When I click "Sign up with Facebook"
-    Then I should see "'Authentication failed.'"
+
 
 

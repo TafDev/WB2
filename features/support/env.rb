@@ -3,7 +3,7 @@
 # newer version of cucumber-rails. Consider adding your own code to a new file
 # instead of editing this one. Cucumber will automatically load all features/**/*.rb
 # files.
-require 'simplecov'
+# require 'simplecov'
 require 'cucumber/rails'
 require 'capybara/cucumber'
 require 'rack_session_access/capybara'
@@ -69,6 +69,7 @@ After('@stripe') do
 end
 
 Before('@omniauth_test_success') do
+
 	OmniAuth.config.test_mode = true
 
 	OmniAuth.config.mock_auth[:facebook] = {
@@ -81,6 +82,7 @@ Before('@omniauth_test_success') do
 					"name"       => "John Doe"
 			}
 	}
+
 end
 
 Before('@omniauth_test_failure') do
