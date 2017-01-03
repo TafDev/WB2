@@ -1,4 +1,4 @@
-# WorkoutBuddy
+# WorkoutBuddy 2
 
 Workout buddy is a web application built to help its users find other people to workout with in their vicinity. The idea is that people can sign up and search for users on the application then message them if they feel that the other person can help them with their workouts or motivation
 
