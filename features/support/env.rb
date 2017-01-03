@@ -4,6 +4,7 @@
 # instead of editing this one. Cucumber will automatically load all features/**/*.rb
 # files.
 require 'simplecov'
+require 'cucumber/rails'
 require 'capybara/cucumber'
 require 'rack_session_access/capybara'
 require 'selenium-webdriver'
@@ -32,7 +33,7 @@ require 'stripe_mock'
 # 2) Set the value below to true. Beware that doing this globally is not
 # recommended as it will mask a lot of errors for you!
 #
-# ActionController::Base.allow_rescue = false
+ActionController::Base.allow_rescue = false
 
 # Remove/comment out the lines below if your app doesn't have a database.
 # For some databases (like MongoDB and CouchDB) you may need to use :truncation instead.
@@ -68,7 +69,6 @@ After('@stripe') do
 end
 
 Before('@omniauth_test_success') do
-
 	OmniAuth.config.test_mode = true
 
 	OmniAuth.config.mock_auth[:facebook] = {
@@ -81,7 +81,6 @@ Before('@omniauth_test_success') do
 					"name"       => "John Doe"
 			}
 	}
-
 end
 
 Before('@omniauth_test_failure') do
