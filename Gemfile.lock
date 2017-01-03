@@ -361,6 +361,7 @@ DEPENDENCIES
   cloudinary
   codeship
   coffee-rails (~> 4.2)
+  database_cleaner
   devise
   dropzonejs-rails
   factory_girl_rails
