@@ -46,16 +46,16 @@ gem 'rails-erd'
 gem 'selenium-webdriver'
 # gem "capybara-webkit"
 gem 'codeship'
-
+gem 'simplecov', :require => false, :group => :test
 group :development, :test do
 	gem 'database_cleaner'
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platform: :mri
   gem 'rails-controller-testing'
+	gem 'rspec-rails'
 	gem 'tsuite'
 	gem 'factory_girl_rails'
 	gem 'pry-byebug'
-	gem 'simplecov'
   gem 'stripe-ruby-mock', '~> 2.3.1', :require => 'stripe_mock'
 end
 

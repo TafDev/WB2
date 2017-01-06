@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7f3b3391-9021-49a9-8808-baf9cffd591b" name="Default" comment="" />
+    <list default="true" id="7f3b3391-9021-49a9-8808-baf9cffd591b" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/WorkoutBuddy.iml" afterPath="$PROJECT_DIR$/.idea/WorkoutBuddy.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/runConfigurations/Development__WorkoutBuddy.xml" afterPath="$PROJECT_DIR$/.idea/runConfigurations/Development__WorkoutBuddy.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Rakefile" afterPath="$PROJECT_DIR$/Rakefile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/support/env.rb" afterPath="$PROJECT_DIR$/features/support/env.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/rails_helper.rb" afterPath="$PROJECT_DIR$/spec/rails_helper.rb" />
+    </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
     <ignored path="$PROJECT_DIR$/public/system/" />
@@ -16,6 +25,7 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/WorkoutBuddy@user_feature.coverage" NAME="user.feature Coverage Results" MODIFIED="1481061270792" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="WorkoutBuddy" />
+    <SUITE FILE_PATH="coverage/WorkoutBuddy2@spec__WorkoutBuddy.coverage" NAME="spec: WorkoutBuddy Coverage Results" MODIFIED="1483502730706" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="WorkoutBuddy" />
     <SUITE FILE_PATH="coverage/WorkoutBuddy@Development__WorkoutBuddy.coverage" NAME="Development: WorkoutBuddy Coverage Results" MODIFIED="1481028573217" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="WorkoutBuddy" />
     <SUITE FILE_PATH="coverage/WorkoutBuddy@All_tests_in_spec__WorkoutBuddy.coverage" NAME="All tests in spec: WorkoutBuddy Coverage Results" MODIFIED="1481067631786" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="WorkoutBuddy" />
     <SUITE FILE_PATH="coverage/WorkoutBuddy@Unnamed.coverage" NAME="Unnamed Coverage Results" MODIFIED="1482036045096" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" MODULE_NAME="WorkoutBuddy" />
@@ -79,101 +89,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="util_steps.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/features/step_definitions/util_steps.rb">
+      <file leaf-file-name="goals_spec.rb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/spec/features/goals_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="user_steps.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/features/step_definitions/user_steps.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="profile.feature" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/features/profile.feature">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-465">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="user.feature" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/features/user.feature">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="172">
-              <caret line="25" column="24" lean-forward="false" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".simplecov" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.simplecov">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="devise.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/initializers/devise.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="28" lean-forward="false" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="env.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/features/support/env.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="34" column="45" lean-forward="false" selection-start-line="34" selection-start-column="45" selection-end-line="34" selection-end-column="45" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Gemfile" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Gemfile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="50" column="23" lean-forward="false" selection-start-line="50" selection-start-column="23" selection-end-line="50" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="spec_helper.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spec/spec_helper.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="31" column="36" lean-forward="false" selection-start-line="31" selection-start-column="36" selection-end-line="31" selection-end-column="36" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="rails_helper.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spec/rails_helper.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+            <state relative-caret-position="60">
+              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -198,12 +118,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/features/messaging.feature" />
         <option value="$PROJECT_DIR$/features/account.feature" />
         <option value="$PROJECT_DIR$/features/image.feature" />
         <option value="$PROJECT_DIR$/app/uploaders/images_uploader.rb" />
         <option value="$PROJECT_DIR$/spec/support/spec_test_helper.rb" />
-        <option value="$PROJECT_DIR$/Rakefile" />
         <option value="$PROJECT_DIR$/app/views/profiles/show.html.erb" />
         <option value="$PROJECT_DIR$/config/application.yml" />
         <option value="$PROJECT_DIR$/config/cloudinary.yml" />
@@ -219,7 +137,6 @@
         <option value="$PROJECT_DIR$/spec/support/OmniauthTester.rb" />
         <option value="$PROJECT_DIR$/spec/support/OmniAuthTestHelper.rb" />
         <option value="$PROJECT_DIR$/spec/requests/user_sessions_request_spec.rb" />
-        <option value="$PROJECT_DIR$/spec/spec_helper.rb" />
         <option value="$PROJECT_DIR$/spec/models/user_spec.rb" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/spec/controllers/searches_controller_spec.rb" />
@@ -227,7 +144,6 @@
         <option value="$PROJECT_DIR$/app/controllers/users_controller.rb" />
         <option value="$PROJECT_DIR$/app/controllers/images_controller.rb" />
         <option value="$PROJECT_DIR$/spec/controllers/images_controller_spec.rb" />
-        <option value="$PROJECT_DIR$/coverage/index.html" />
         <option value="$PROJECT_DIR$/app/controllers/likes_controller.rb" />
         <option value="$PROJECT_DIR$/spec/controllers/likes_controller_spec.rb" />
         <option value="$PROJECT_DIR$/app/controllers/profiles_controller.rb" />
@@ -245,10 +161,14 @@
         <option value="$PROJECT_DIR$/app/models/user.rb" />
         <option value="$PROJECT_DIR$/config/initializers/devise.rb" />
         <option value="$PROJECT_DIR$/.simplecov" />
-        <option value="$PROJECT_DIR$/spec/rails_helper.rb" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/spec/spec_helper.rb" />
+        <option value="$PROJECT_DIR$/coverage/index.html" />
         <option value="$PROJECT_DIR$/features/support/env.rb" />
+        <option value="$PROJECT_DIR$/Rakefile" />
+        <option value="$PROJECT_DIR$/spec/rails_helper.rb" />
         <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/spec/features/goals_spec.rb" />
       </list>
     </option>
   </component>
@@ -293,6 +213,36 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="RailsProjectView">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WorkoutBuddy" />
+              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.RailsProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WorkoutBuddy" />
+              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.RailsModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WorkoutBuddy" />
+              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.RailsProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WorkoutBuddy" />
+              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.RailsModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app/uploaders" />
+              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.folders.MinorFolderWithDoubleNameNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -329,25 +279,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="features" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WorkoutBuddy2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WorkoutBuddy2" />
+              <option name="myItemId" value="spec" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="features" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="support" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -367,36 +303,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="RailsProjectView">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WorkoutBuddy" />
-              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.RailsProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WorkoutBuddy" />
-              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.RailsModuleNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WorkoutBuddy" />
-              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.RailsProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WorkoutBuddy" />
-              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.RailsModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app/uploaders" />
-              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.folders.MinorFolderWithDoubleNameNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -422,7 +328,7 @@
       <recent name="$PROJECT_DIR$/spec/fixtures/files" />
     </key>
   </component>
-  <component name="RunManager" selected="Rails.Production: WorkoutBuddy">
+  <component name="RunManager" selected="Rake.spec: WorkoutBuddy">
     <configuration default="false" name="user.feature" type="CucumberRunConfigurationType" factoryName="Cucumber" temporary="true">
       <predefined_log_file id="RUBY_CUCUMBER" enabled="true" />
       <module name="WorkoutBuddy" />
@@ -727,17 +633,12 @@
       <workItem from="1482166689736" duration="10727000" />
       <workItem from="1482939772652" duration="22000" />
       <workItem from="1482939862399" duration="771000" />
-      <workItem from="1483219848549" duration="30813000" />
+      <workItem from="1483219848549" duration="36028000" />
+      <workItem from="1483737307899" duration="19000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unnamed - 2016.12.15 at 12h 37m 18s.xml">
-      <configuration name="Unnamed" configurationId="CucumberRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Unnamed - 2016.12.15 at 12h 38m 46s.xml">
-      <configuration name="Unnamed" configurationId="CucumberRunConfigurationType" />
-    </history-entry>
     <history-entry file="Unnamed - 2016.12.15 at 14h 07m 04s.xml">
       <configuration name="Unnamed" configurationId="CucumberRunConfigurationType" />
     </history-entry>
@@ -762,32 +663,48 @@
     <history-entry file="Unnamed - 2016.12.18 at 04h 41m 45s.xml">
       <configuration name="Unnamed" configurationId="CucumberRunConfigurationType" />
     </history-entry>
+    <history-entry file="spec__WorkoutBuddy - 2017.01.04 at 04h 05m 18s.xml">
+      <configuration name="spec: WorkoutBuddy" configurationId="RakeRunConfigurationType" />
+    </history-entry>
+    <history-entry file="spec__WorkoutBuddy - 2017.01.04 at 04h 05m 54s.xml">
+      <configuration name="spec: WorkoutBuddy" configurationId="RakeRunConfigurationType" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="287222000" />
+    <option name="totallyTimeSpent" value="292456000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21459228" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3253012" sideWeight="0.5207439" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21745351" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.48712447" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32771084" sideWeight="0.5171674" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32771084" sideWeight="0.48569384" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4698795" sideWeight="0.4792561" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3566265" sideWeight="0.47639486" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32771084" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32771084" sideWeight="0.4828326" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -839,115 +756,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/spec/requests/user_sessions_request_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="10" lean-forward="false" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/models/search_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/models/user_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/models/image_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="7" lean-forward="false" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/searches/create.js.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/searches/_new.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1080">
-          <caret line="0" column="14" lean-forward="false" selection-start-line="0" selection-start-column="10" selection-end-line="0" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/environment.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/searches/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="6" lean-forward="false" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/users_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/controllers/registrations_controller_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/likes_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="12" lean-forward="false" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/images_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="277">
           <caret line="24" column="23" lean-forward="false" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -955,7 +767,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -963,7 +774,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -971,7 +781,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -979,7 +788,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -987,7 +795,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="72" column="5" lean-forward="false" selection-start-line="72" selection-start-column="5" selection-end-line="72" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -995,7 +802,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="9" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1003,7 +809,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="570">
           <caret line="38" column="23" lean-forward="false" selection-start-line="38" selection-start-column="23" selection-end-line="38" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1011,7 +816,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1019,7 +823,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-210">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1027,7 +830,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1035,7 +837,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="4" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1043,7 +844,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-75">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1051,7 +851,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="22" column="7" lean-forward="false" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1059,7 +858,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1067,7 +865,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-75">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1075,264 +872,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/coverage/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="562" column="6" lean-forward="false" selection-start-line="562" selection-start-column="6" selection-end-line="562" selection-end-column="6" />
-          <folding>
-            <element signature="e#31634#31638#0" expanded="false" />
-            <element signature="e#34942#34946#0" expanded="false" />
-            <element signature="e#34947#34952#0" expanded="false" />
-            <element signature="e#34961#34966#0" expanded="false" />
-            <element signature="e#36990#36994#0" expanded="false" />
-            <element signature="e#39610#39614#0" expanded="false" />
-            <element signature="e#43337#43341#0" expanded="false" />
-            <element signature="e#43342#43348#0" expanded="false" />
-            <element signature="e#43362#43368#0" expanded="false" />
-            <element signature="e#45058#45062#0" expanded="false" />
-            <element signature="e#46632#46636#0" expanded="false" />
-            <element signature="e#48621#48625#0" expanded="false" />
-            <element signature="e#52360#52364#0" expanded="false" />
-            <element signature="e#53228#53234#0" expanded="false" />
-            <element signature="e#53241#53247#0" expanded="false" />
-            <element signature="e#53585#53589#0" expanded="false" />
-            <element signature="e#53772#53778#0" expanded="false" />
-            <element signature="e#53783#53789#0" expanded="false" />
-            <element signature="e#55791#55795#0" expanded="false" />
-            <element signature="e#61709#61713#0" expanded="false" />
-            <element signature="e#63834#63840#0" expanded="false" />
-            <element signature="e#63841#63847#0" expanded="false" />
-            <element signature="e#63853#63858#0" expanded="false" />
-            <element signature="e#64622#64626#0" expanded="false" />
-            <element signature="e#64626#64630#0" expanded="false" />
-            <element signature="e#66549#66553#0" expanded="false" />
-            <element signature="e#69399#69403#0" expanded="false" />
-            <element signature="e#69751#69757#0" expanded="false" />
-            <element signature="e#69772#69778#0" expanded="false" />
-            <element signature="e#73083#73087#0" expanded="false" />
-            <element signature="e#73461#73467#0" expanded="false" />
-            <element signature="e#73480#73486#0" expanded="false" />
-            <element signature="e#73974#73978#0" expanded="false" />
-            <element signature="e#74183#74187#0" expanded="false" />
-            <element signature="e#74188#74194#0" expanded="false" />
-            <element signature="e#74202#74208#0" expanded="false" />
-            <element signature="e#74537#74543#0" expanded="false" />
-            <element signature="e#74563#74569#0" expanded="false" />
-            <element signature="e#74585#74591#0" expanded="false" />
-            <element signature="e#74604#74610#0" expanded="false" />
-            <element signature="e#76451#76455#0" expanded="false" />
-            <element signature="e#77330#77334#0" expanded="false" />
-            <element signature="e#86095#86099#0" expanded="false" />
-            <element signature="e#87057#87061#0" expanded="false" />
-            <element signature="e#88016#88020#0" expanded="false" />
-            <element signature="e#88357#88361#0" expanded="false" />
-            <element signature="e#88386#88392#0" expanded="false" />
-            <element signature="e#88396#88402#0" expanded="false" />
-            <element signature="e#88582#88586#0" expanded="false" />
-            <element signature="e#88614#88620#0" expanded="false" />
-            <element signature="e#88624#88630#0" expanded="false" />
-            <element signature="e#89141#89145#0" expanded="false" />
-            <element signature="e#89652#89656#0" expanded="false" />
-            <element signature="e#89835#89841#0" expanded="false" />
-            <element signature="e#89971#89977#0" expanded="false" />
-            <element signature="e#91051#91055#0" expanded="false" />
-            <element signature="e#92738#92742#0" expanded="false" />
-            <element signature="e#93853#93857#0" expanded="false" />
-            <element signature="e#95413#95417#0" expanded="false" />
-            <element signature="e#97054#97060#0" expanded="false" />
-            <element signature="e#97064#97070#0" expanded="false" />
-            <element signature="e#97215#97221#0" expanded="false" />
-            <element signature="e#97233#97239#0" expanded="false" />
-            <element signature="e#97384#97390#0" expanded="false" />
-            <element signature="e#97399#97405#0" expanded="false" />
-            <element signature="e#97550#97556#0" expanded="false" />
-            <element signature="e#97563#97569#0" expanded="false" />
-            <element signature="e#97714#97720#0" expanded="false" />
-            <element signature="e#97735#97741#0" expanded="false" />
-            <element signature="e#97886#97892#0" expanded="false" />
-            <element signature="e#97906#97912#0" expanded="false" />
-            <element signature="e#98057#98063#0" expanded="false" />
-            <element signature="e#98070#98076#0" expanded="false" />
-            <element signature="e#98221#98227#0" expanded="false" />
-            <element signature="e#98235#98241#0" expanded="false" />
-            <element signature="e#98386#98392#0" expanded="false" />
-            <element signature="e#98401#98407#0" expanded="false" />
-            <element signature="e#98552#98558#0" expanded="false" />
-            <element signature="e#98563#98569#0" expanded="false" />
-            <element signature="e#98714#98720#0" expanded="false" />
-            <element signature="e#98728#98734#0" expanded="false" />
-            <element signature="e#98879#98885#0" expanded="false" />
-            <element signature="e#98898#98904#0" expanded="false" />
-            <element signature="e#99049#99055#0" expanded="false" />
-            <element signature="e#99068#99074#0" expanded="false" />
-            <element signature="e#99219#99225#0" expanded="false" />
-            <element signature="e#99236#99242#0" expanded="false" />
-            <element signature="e#99387#99393#0" expanded="false" />
-            <element signature="e#99409#99415#0" expanded="false" />
-            <element signature="e#99560#99566#0" expanded="false" />
-            <element signature="e#99584#99590#0" expanded="false" />
-            <element signature="e#99735#99741#0" expanded="false" />
-            <element signature="e#99754#99760#0" expanded="false" />
-            <element signature="e#99905#99911#0" expanded="false" />
-            <element signature="e#99918#99924#0" expanded="false" />
-            <element signature="e#100069#100075#0" expanded="false" />
-            <element signature="e#100085#100091#0" expanded="false" />
-            <element signature="e#100236#100242#0" expanded="false" />
-            <element signature="e#100247#100253#0" expanded="false" />
-            <element signature="e#100398#100404#0" expanded="false" />
-            <element signature="e#100410#100416#0" expanded="false" />
-            <element signature="e#100561#100567#0" expanded="false" />
-            <element signature="e#100588#100594#0" expanded="false" />
-            <element signature="e#100739#100745#0" expanded="false" />
-            <element signature="e#100751#100757#0" expanded="false" />
-            <element signature="e#100902#100908#0" expanded="false" />
-            <element signature="e#100913#100919#0" expanded="false" />
-            <element signature="e#101064#101070#0" expanded="false" />
-            <element signature="e#101081#101087#0" expanded="false" />
-            <element signature="e#101232#101238#0" expanded="false" />
-            <element signature="e#101243#101249#0" expanded="false" />
-            <element signature="e#101394#101400#0" expanded="false" />
-            <element signature="e#101404#101410#0" expanded="false" />
-            <element signature="e#101555#101561#0" expanded="false" />
-            <element signature="e#101576#101582#0" expanded="false" />
-            <element signature="e#101727#101733#0" expanded="false" />
-            <element signature="e#101741#101747#0" expanded="false" />
-            <element signature="e#101892#101898#0" expanded="false" />
-            <element signature="e#101916#101922#0" expanded="false" />
-            <element signature="e#102067#102073#0" expanded="false" />
-            <element signature="e#102078#102084#0" expanded="false" />
-            <element signature="e#102229#102235#0" expanded="false" />
-            <element signature="e#102249#102255#0" expanded="false" />
-            <element signature="e#102400#102406#0" expanded="false" />
-            <element signature="e#102415#102421#0" expanded="false" />
-            <element signature="e#102566#102572#0" expanded="false" />
-            <element signature="e#102585#102591#0" expanded="false" />
-            <element signature="e#102736#102742#0" expanded="false" />
-            <element signature="e#102755#102761#0" expanded="false" />
-            <element signature="e#102906#102912#0" expanded="false" />
-            <element signature="e#102933#102939#0" expanded="false" />
-            <element signature="e#103084#103090#0" expanded="false" />
-            <element signature="e#103100#103106#0" expanded="false" />
-            <element signature="e#103251#103257#0" expanded="false" />
-            <element signature="e#103270#103276#0" expanded="false" />
-            <element signature="e#103421#103427#0" expanded="false" />
-            <element signature="e#103431#103437#0" expanded="false" />
-            <element signature="e#103582#103588#0" expanded="false" />
-            <element signature="e#103598#103604#0" expanded="false" />
-            <element signature="e#103749#103755#0" expanded="false" />
-            <element signature="e#103769#103775#0" expanded="false" />
-            <element signature="e#103920#103926#0" expanded="false" />
-            <element signature="e#103938#103944#0" expanded="false" />
-            <element signature="e#104089#104095#0" expanded="false" />
-            <element signature="e#104102#104108#0" expanded="false" />
-            <element signature="e#104253#104259#0" expanded="false" />
-            <element signature="e#104269#104275#0" expanded="false" />
-            <element signature="e#104420#104426#0" expanded="false" />
-            <element signature="e#104439#104445#0" expanded="false" />
-            <element signature="e#104590#104596#0" expanded="false" />
-            <element signature="e#104603#104609#0" expanded="false" />
-            <element signature="e#104754#104760#0" expanded="false" />
-            <element signature="e#104775#104781#0" expanded="false" />
-            <element signature="e#104926#104932#0" expanded="false" />
-            <element signature="e#104948#104954#0" expanded="false" />
-            <element signature="e#105099#105105#0" expanded="false" />
-            <element signature="e#105119#105125#0" expanded="false" />
-            <element signature="e#105270#105276#0" expanded="false" />
-            <element signature="e#105291#105297#0" expanded="false" />
-            <element signature="e#105442#105448#0" expanded="false" />
-            <element signature="e#105459#105465#0" expanded="false" />
-            <element signature="e#105610#105616#0" expanded="false" />
-            <element signature="e#105621#105627#0" expanded="false" />
-            <element signature="e#105772#105778#0" expanded="false" />
-            <element signature="e#105785#105791#0" expanded="false" />
-            <element signature="e#105936#105942#0" expanded="false" />
-            <element signature="e#105952#105958#0" expanded="false" />
-            <element signature="e#106103#106109#0" expanded="false" />
-            <element signature="e#106117#106123#0" expanded="false" />
-            <element signature="e#106268#106274#0" expanded="false" />
-            <element signature="e#106289#106295#0" expanded="false" />
-            <element signature="e#106440#106446#0" expanded="false" />
-            <element signature="e#106461#106467#0" expanded="false" />
-            <element signature="e#106612#106618#0" expanded="false" />
-            <element signature="e#106631#106637#0" expanded="false" />
-            <element signature="e#106782#106788#0" expanded="false" />
-            <element signature="e#106799#106805#0" expanded="false" />
-            <element signature="e#106950#106956#0" expanded="false" />
-            <element signature="e#106963#106969#0" expanded="false" />
-            <element signature="e#107114#107120#0" expanded="false" />
-            <element signature="e#107126#107132#0" expanded="false" />
-            <element signature="e#107277#107283#0" expanded="false" />
-            <element signature="e#107290#107296#0" expanded="false" />
-            <element signature="e#107441#107447#0" expanded="false" />
-            <element signature="e#107460#107466#0" expanded="false" />
-            <element signature="e#107611#107617#0" expanded="false" />
-            <element signature="e#107629#107635#0" expanded="false" />
-            <element signature="e#107780#107786#0" expanded="false" />
-            <element signature="e#107800#107806#0" expanded="false" />
-            <element signature="e#107951#107957#0" expanded="false" />
-            <element signature="e#107970#107976#0" expanded="false" />
-            <element signature="e#108121#108127#0" expanded="false" />
-            <element signature="e#108138#108144#0" expanded="false" />
-            <element signature="e#108289#108295#0" expanded="false" />
-            <element signature="e#108309#108315#0" expanded="false" />
-            <element signature="e#108460#108466#0" expanded="false" />
-            <element signature="e#108475#108481#0" expanded="false" />
-            <element signature="e#108626#108632#0" expanded="false" />
-            <element signature="e#108646#108652#0" expanded="false" />
-            <element signature="e#109823#109827#0" expanded="false" />
-            <element signature="e#110897#110901#0" expanded="false" />
-            <element signature="e#111612#111618#0" expanded="false" />
-            <element signature="e#111628#111634#0" expanded="false" />
-            <element signature="e#111831#111837#0" expanded="false" />
-            <element signature="e#111847#111853#0" expanded="false" />
-            <element signature="e#112050#112055#0" expanded="false" />
-            <element signature="e#112066#112071#0" expanded="false" />
-            <element signature="e#112270#112275#0" expanded="false" />
-            <element signature="e#112279#112283#0" expanded="false" />
-            <element signature="e#112286#112291#0" expanded="false" />
-            <element signature="e#112490#112495#0" expanded="false" />
-            <element signature="e#112499#112503#0" expanded="false" />
-            <element signature="e#112506#112511#0" expanded="false" />
-            <element signature="e#113709#113713#0" expanded="false" />
-            <element signature="e#114840#114844#0" expanded="false" />
-            <element signature="e#115866#115870#0" expanded="false" />
-            <element signature="e#118239#118245#0" expanded="false" />
-            <element signature="e#118249#118255#0" expanded="false" />
-            <element signature="e#119338#119344#0" expanded="false" />
-            <element signature="e#119364#119370#0" expanded="false" />
-            <element signature="e#119372#119377#0" expanded="false" />
-            <element signature="e#119377#119382#0" expanded="false" />
-            <element signature="e#119391#119397#0" expanded="false" />
-            <element signature="e#119417#119423#0" expanded="false" />
-            <element signature="e#119425#119431#0" expanded="false" />
-            <element signature="e#119436#119442#0" expanded="false" />
-            <element signature="e#119444#119450#0" expanded="false" />
-            <element signature="e#119458#119464#0" expanded="false" />
-            <element signature="e#119631#119637#0" expanded="false" />
-            <element signature="e#119642#119648#0" expanded="false" />
-            <element signature="e#124144#124148#0" expanded="false" />
-            <element signature="e#126577#126583#0" expanded="false" />
-            <element signature="e#126647#126653#0" expanded="false" />
-            <element signature="e#127139#127144#0" expanded="false" />
-            <element signature="e#127713#127719#0" expanded="false" />
-            <element signature="e#127728#127734#0" expanded="false" />
-            <element signature="e#127752#127758#0" expanded="false" />
-            <element signature="e#127769#127775#0" expanded="false" />
-            <element signature="e#127790#127795#0" expanded="false" />
-            <element signature="e#127796#127801#0" expanded="false" />
-            <element signature="e#128095#128101#0" expanded="false" />
-            <element signature="e#128110#128116#0" expanded="false" />
-            <element signature="e#128134#128140#0" expanded="false" />
-            <element signature="e#128151#128157#0" expanded="false" />
-            <element signature="e#128172#128177#0" expanded="false" />
-            <element signature="e#128178#128183#0" expanded="false" />
-            <element signature="e#132197#132203#0" expanded="false" />
-            <element signature="e#132216#132222#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1340,7 +879,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="19" column="6" lean-forward="false" selection-start-line="19" selection-start-column="6" selection-end-line="23" selection-end-column="15" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1348,15 +886,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.rspec">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1364,7 +893,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="15" column="23" lean-forward="true" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1372,7 +900,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="45" column="18" lean-forward="false" selection-start-line="45" selection-start-column="18" selection-end-line="45" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1380,7 +907,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1388,7 +914,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1396,7 +921,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="13" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1404,7 +928,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1412,7 +935,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="13" column="28" lean-forward="false" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1420,7 +942,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1428,7 +949,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1436,7 +956,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-465">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1444,31 +963,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="172">
           <caret line="25" column="24" lean-forward="false" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.simplecov">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/spec_helper.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="31" column="36" lean-forward="false" selection-start-line="31" selection-start-column="36" selection-end-line="31" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/rails_helper.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1477,24 +971,149 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="225">
             <caret line="15" column="35" lean-forward="true" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/support/env.rb">
+    <entry file="file://$PROJECT_DIR$/.travis.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.3.1/gems/tsuite-0.1.6/lib/tasks/install_task.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.3.1/gems/tsuite-0.1.6/lib/tsuite/version.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.3.1/gems/tsuite-0.1.6/lib/tsuite.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-473">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.3.1/gems/tsuite-0.1.6/lib/generators/tsuite/install_generator.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.3.1/gems/tsuite-0.1.6/lib/generators/tsuite/templates/features/support/poltergeist.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.3.1/gems/tsuite-0.1.6/bin/setup">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.3.1/gems/tsuite-0.1.6/bin/console">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/coverage/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3645">
+          <caret line="559" column="31" lean-forward="false" selection-start-line="559" selection-start-column="31" selection-end-line="559" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/coverage/.last_run.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/coverage/.resultset.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.rspec">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.simplecov">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/spec_helper.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
-          <caret line="34" column="45" lean-forward="false" selection-start-line="34" selection-start-column="45" selection-end-line="34" selection-end-column="45" />
-          <folding />
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/rails_helper.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="26" lean-forward="true" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Rakefile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/support/share_db_connection.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="50" column="23" lean-forward="false" selection-start-line="50" selection-start-column="23" selection-end-line="50" selection-end-column="23" />
+        <state relative-caret-position="157">
+          <caret line="48" column="51" lean-forward="false" selection-start-line="48" selection-start-column="51" selection-end-line="48" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/support/env.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/features/goals_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding />
         </state>
       </provider>

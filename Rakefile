@@ -7,8 +7,10 @@ require 'cucumber/rake/task'
 
 Rails.application.load_tasks
 
-RSpec::Core::RakeTask.new
-Cucumber::Rake::Task.new
 
-task :default => [:spec, :cucumber]
+#
+# RSpec::Core::RakeTask.new
+# Cucumber::Rake::Task.new
+
+# task :default => [:spec, :cucumber]
 
