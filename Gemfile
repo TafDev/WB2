@@ -47,6 +47,8 @@ gem 'selenium-webdriver'
 # gem "capybara-webkit"
 gem 'codeship'
 gem 'simplecov', :require => false, :group => :test
+gem 'listen'
+
 group :development, :test do
 	gem 'database_cleaner'
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
@@ -56,7 +58,7 @@ group :development, :test do
 	gem 'tsuite'
 	gem 'factory_girl_rails'
 	gem 'pry-byebug'
-  gem 'stripe-ruby-mock', '~> 2.3.1', :require => 'stripe_mock'
+  # gem 'stripe-ruby-mock', '~> 2.3.1', :require => 'stripe_mock'
 end
 
 group :development do
@@ -66,7 +68,6 @@ group :development do
 	gem 'binding_of_caller'
   # Access an IRB console on exception pages or by using <%= console %> anywhere in the code.
   gem 'web-console'
-  gem 'listen', '~> 3.0.5'
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'

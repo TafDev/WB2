@@ -8,7 +8,7 @@ require 'cucumber/rails'
 require 'capybara/cucumber'
 require 'rack_session_access/capybara'
 require 'selenium-webdriver'
-require 'stripe_mock'
+# require 'stripe_mock'
 
 SimpleCov.command_name "features"
 
