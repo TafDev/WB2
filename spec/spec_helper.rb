@@ -17,6 +17,9 @@ require 'support/factory_girl'
 # users commonly want.
 #
 # See http://rubydoc.info/gems/rspec-core/RSpec/Core/Configuration
+
+Capybara.javascript_driver = :selenium
+
 RSpec.configure do |config|
 
 	config.use_transactional_fixtures = false

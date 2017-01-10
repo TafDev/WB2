@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20161219210720) do
+ActiveRecord::Schema.define(version: 20170106230208) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -29,6 +29,14 @@ ActiveRecord::Schema.define(version: 20161219210720) do
     t.integer  "recipient_id"
     t.datetime "created_at",   null: false
     t.datetime "updated_at",   null: false
+  end
+
+  create_table "goals", force: :cascade do |t|
+    t.string   "body"
+    t.integer  "profile_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["profile_id"], name: "index_goals_on_profile_id", using: :btree
   end
 
   create_table "images", force: :cascade do |t|
@@ -121,6 +129,7 @@ ActiveRecord::Schema.define(version: 20161219210720) do
   end
 
   add_foreign_key "accounts", "users"
+  add_foreign_key "goals", "profiles"
   add_foreign_key "images", "profiles"
   add_foreign_key "likes", "users"
   add_foreign_key "profile_sports", "profiles"

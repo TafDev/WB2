@@ -60,6 +60,8 @@ group :development, :test do
 end
 
 group :development do
+	gem 'guard'
+	gem 'guard-rspec'
 	gem 'better_errors'
 	gem 'binding_of_caller'
   # Access an IRB console on exception pages or by using <%= console %> anywhere in the code.

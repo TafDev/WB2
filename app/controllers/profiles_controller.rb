@@ -5,6 +5,7 @@ class ProfilesController < ApplicationController
 	def show
 		@profile = @user.profile
 		@sport = @profile.sports.new
+		@goal = current_user.profile.goals.build
 	end
 
 	def update

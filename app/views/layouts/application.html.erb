@@ -89,9 +89,14 @@
 		</div>
 	</div>
 </header>
-  <p class="notice"><%= notice %></p>
-  <p class="alert"><%= alert %></p>
   <body>
+  <div class="ui twelve column">
+	  <% flash.each do |key, message| %>
+			  <div id="flash-<%= key %>" class="flash-<%= key %>">
+				  <%= message %>
+			  </div>
+	  <% end %>
+  </div>
     <%= yield %>
   </body>
 </html>

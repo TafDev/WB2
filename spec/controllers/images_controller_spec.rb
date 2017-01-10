@@ -12,7 +12,7 @@ RSpec.describe ImagesController, type: :controller do
 	describe "User Images" do
 
 		it "should let users see all their images" do
-			get :index, user_id: @bob.id
+			get :index, params: {user_id: @bob.id}
 			expect(response.status).to eq 200
 		end
 
