@@ -47,7 +47,6 @@ gem 'selenium-webdriver'
 # gem "capybara-webkit"
 gem 'codeship'
 gem 'simplecov', :require => false, :group => :test
-gem 'listen'
 
 group :development, :test do
 	gem 'guard'
@@ -64,6 +63,7 @@ group :development, :test do
 end
 
 group :development do
+	gem 'listen'
 	gem 'better_errors'
 	gem 'binding_of_caller'
   # Access an IRB console on exception pages or by using <%= console %> anywhere in the code.
