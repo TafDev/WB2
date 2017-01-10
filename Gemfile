@@ -50,6 +50,8 @@ gem 'simplecov', :require => false, :group => :test
 gem 'listen'
 
 group :development, :test do
+	gem 'guard'
+	gem 'guard-rspec'
 	gem 'database_cleaner'
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platform: :mri
@@ -62,8 +64,6 @@ group :development, :test do
 end
 
 group :development do
-	gem 'guard'
-	gem 'guard-rspec'
 	gem 'better_errors'
 	gem 'binding_of_caller'
   # Access an IRB console on exception pages or by using <%= console %> anywhere in the code.
