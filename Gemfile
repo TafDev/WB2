@@ -43,12 +43,11 @@ gem 'omniauth'
 gem 'rails-erd'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
-gem 'selenium-webdriver'
 # gem "capybara-webkit"
-gem 'codeship'
 gem 'simplecov', :require => false, :group => :test
 
 group :development, :test do
+	gem 'selenium-webdriver'
 	gem 'guard'
 	gem 'guard-rspec'
 	gem 'database_cleaner'
@@ -63,6 +62,7 @@ group :development, :test do
 end
 
 group :development do
+	gem 'codeship'
 	gem 'listen'
 	gem 'better_errors'
 	gem 'binding_of_caller'
