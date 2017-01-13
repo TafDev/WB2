@@ -37,7 +37,8 @@
 				    success: function(response) {
 				        console.log(response);
 								$("#goal-body-" + response.id).hide();
-								$("#completed-goals-table > tbody").append('<td>' + response.body + '</td>')
+								$("#completed-goals-table > tbody").append('<td>' + '<%= semantic_icon('trash') %>'+ '</td>' +
+									'<td>' + response.body + '</td>')
 				    }
 		    });
     });
