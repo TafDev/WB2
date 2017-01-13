@@ -8,9 +8,11 @@ RSpec.feature "Goal", type: :feature do
 		@goal = barvis.profile.goals.create(body: "run a marathon on 15 mins")
 	end
 
-	scenario "user marks goal as complete", :js => true do
+	scenario "remove a goal from profile" do
 		visit '/'
-		page.check('goal-1')
-		expect(@goal.reload.is_complete?).to be true
+		within(:css, '#goal-body-1') do
+			page.find('#trash-1').click
+		end
+		expect(page).not_to have_content(@goal)
 	end
 end

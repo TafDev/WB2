@@ -51,7 +51,7 @@
 							<% end %>
 				</div>
 			</div>
-			<div class="three wide column">
+			<div class="four wide column">
 				<div id="age" class="ui left icon input">
 					<% if @user == current_user %>
 							<span><%= semantic_icon('edit') %></span>
@@ -138,7 +138,7 @@
 					<% end %>
 				</div>
 				</div>
-			<div class="nine wide column">
+			<div class="eight wide column">
 
 				<div class="ui top attached inverted header">
 					Description:
@@ -183,7 +183,8 @@
 							<% if @profile.goals.any? %>
 									<thead class="full-width">
 										<tr>
-											<th>Goal</th>
+											<th class="two wide"></th>
+											<th class="twelve wide">Goal</th>
 											<th>Mark as complete?</th>
 										</tr>
 									</thead>
@@ -208,16 +209,61 @@
 					</div>
 				</div>
 			</div>
+			<div class="eight wide column">
+				<div class="ui segment">
+					<div class="content">
+						<div class="ui top attached inverted header">
+							<h3 class="big label">Completed Goals</h3>
+						</div>
+						<hr>
+						<table id="completed-goals-table" class="ui compact celled definition table">
+							<% if @profile.goals.any? %>
+									<thead class="full-width">
+									<tr>
+										<th class="two wide"></th>
+										<th>Goal</th>
+									</tr>
+									</thead>
+									<tbody>
+									<% @profile.goals.each do |goal| %>
+										<% if goal.is_complete? %>
+											<tr id="trash-body-<%= goal.id %>">
+												<td><%= semantic_icon('trash', id: "trash-#{goal.id}")  %></td>
+												<td><%= goal.body %></td>
+											</tr>
+										<% end %>
+									<% end %>
+									</tbody>
+							<% end %>
+						</table>
+					</div>
+				</div>
+			</div>
 		</div>
 	</div>
 </div>
 
 <script type="text/javascript" charset="utf-8">
-
+	$('.trash').on('click', function () {
+			console.log($(this).attr("id"));
+      var id = $(this).attr("id").substring(6, 999);
+      $.ajax({
+          type: 'delete',
+          url: '/users/' + <%= current_user.id.to_s %> + '/profile/goals/' + id,
+          success: function (response) {
+              $("#trash-body-" + response.id).fadeOut();
+          }
+      })
+  });
 
 	$('#add-goal').on('click', function() {
 	    $('#goal-form').toggle();
 	});
+
+	$('#goal-form').on('ajax:success', function() {
+	    $(this).toggle();
+	});
+
     $('.label').on('click', function (e) {
         var id1 = e.target.id;
         var id = id1.substring(7, 99);

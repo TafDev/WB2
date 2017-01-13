@@ -1,8 +1,44 @@
-<tr class="goal-body">
+<% unless goal.is_complete? %>
+<tr id="goal-body-<%= goal.id %>">
+	<td><%= semantic_icon('trash', id: "trash-#{goal.id}")  %></td>
 	<td><%= goal.body %></td>
 	<td class="collapsing">
 		<div class="ui fitted slider checkbox">
-			<input type="checkbox"> <label></label>
+			<%= check_box_tag "goal-#{goal.id}" %> <label></label>
 		</div>
 	</td>
 </tr>
+<% end %>
+<script>
+
+	$('#trash-<%= goal.id %>').on('click', function () {
+		var id = $(this).attr("id").substring(6, 999);
+		$.ajax({
+		    type: 'delete',
+				url: '/users/' + <%= current_user.id.to_s %> + '/profile/goals/' + id,
+				success: function (response) {
+            $("#goal-body-" + response.id).fadeOut();
+        }
+		})
+  });
+
+
+    $('#goal-<%= goal.id %>').on('click', function () {
+        var id = $(this).attr("id").substring(5, 999);
+		    $.ajax({
+		        type: 'patch',
+				    url: '/users/' + <%= current_user.id.to_s %> + '/profile/goals/' + id,
+				    data: {
+				        goal: {
+                    id: id,
+                    is_complete: $(this).attr('value')
+				        }
+				    },
+				    success: function(response) {
+				        console.log(response);
+								$("#goal-body-" + response.id).hide();
+								$("#completed-goals-table > tbody").append('<td>' + response.body + '</td>')
+				    }
+		    });
+    });
+</script>

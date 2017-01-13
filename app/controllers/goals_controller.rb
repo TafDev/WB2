@@ -9,7 +9,6 @@ class GoalsController < ApplicationController
 		else
 			@goal = @profile.goals.build(goal_params)
 			@goal.profile.user = current_user
-
 			if @goal.save
 				flash[:notice] = "Goal has been created"
 			else
@@ -22,10 +21,24 @@ class GoalsController < ApplicationController
 		end
 	end
 
+	def update
+		@goal = Goal.find(params[:id])
+		@goal.update(goal_params)
+		respond_to do |format|
+			format.json {render json: @goal}
+		end
+	end
+
+	def destroy
+		@goal = Goal.find(params[:id])
+		@goal.destroy
+		render json: @goal
+	end
+
 	private
 
 	def goal_params
-		params.require(:goal).permit(:body)
+		params.require(:goal).permit(:body, :is_complete)
 	end
 
 
