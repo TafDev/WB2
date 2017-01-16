@@ -41,6 +41,7 @@ gem 'redis', '~> 3.0'
 gem 'omniauth-facebook'
 gem 'omniauth'
 gem 'rails-erd'
+gem 'geocoder'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 # gem "capybara-webkit"

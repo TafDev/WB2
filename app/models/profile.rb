@@ -6,6 +6,9 @@ class Profile < ApplicationRecord
   has_many :profile_sports
   has_many :sports, through: :profile_sports
 
+	# reverse_geocoded_by :latitude, :longitude
+	# after_validation :reverse_geocode  # auto-fetch address
+
   GENDER = %w(Male Female Transgender)
 	FLEVEL = %w(Beginner Intermediate Expert)
 	COUNTY = [

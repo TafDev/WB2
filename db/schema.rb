@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170112164054) do
+ActiveRecord::Schema.define(version: 20170116004444) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -34,9 +34,9 @@ ActiveRecord::Schema.define(version: 20170112164054) do
   create_table "goals", force: :cascade do |t|
     t.string   "body"
     t.integer  "profile_id"
-    t.datetime "created_at",  null: false
-    t.datetime "updated_at",  null: false
-    t.boolean  "is_complete"
+    t.datetime "created_at",                  null: false
+    t.datetime "updated_at",                  null: false
+    t.boolean  "is_complete", default: false
     t.index ["profile_id"], name: "index_goals_on_profile_id", using: :btree
   end
 
@@ -87,6 +87,8 @@ ActiveRecord::Schema.define(version: 20170112164054) do
     t.string   "f_level"
     t.text     "description"
     t.string   "county"
+    t.float    "latitude"
+    t.float    "longitude"
     t.index ["user_id"], name: "index_profiles_on_user_id", using: :btree
   end
 

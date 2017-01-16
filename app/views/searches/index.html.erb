@@ -27,25 +27,62 @@
 
 <script type="text/javascript" charset="utf-8">
 
+    var map;
+    var marker;
+    var position = <%= {lat: current_user.profile.latitude , lng: current_user.profile.longitude }.to_json.html_safe %>;
 
     function initMap() {
-        var latLng = {lat:  51.509865, lng: -0.118092};
         var map = new google.maps.Map(document.getElementById('map'), {
-            zoom: 16,
-            center: latLng
+						center: position,
+            zoom: 16
         });
+
+        marker = new google.maps.Marker({
+            position: position,
+            map: map
+        });
+
         var tab = $('#mapView');
         tab.one('click', function(){
             google.maps.event.trigger(map, 'resize');
-            map.setCenter(latLng)
+            map.setCenter(position)
         });
-        var marker = new google.maps.Marker({
-            position: latLng,
-            map: map
-        });
+
+//        var infoWindow = new google.maps.InfoWindow({map: map});
+
+        // Try HTML5 geolocation.
+        var geo = navigator.geolocation;
+        if (geo) {
+            geo.getCurrentPosition(function(data) {
+                var pos = new google.maps.LatLng(data.latitude, data.longitude);
+//                infoWindow.setPosition(pos);
+//                infoWindow.setContent('You are here');
+//                map.setCenter(pos);
+                    App.location.create({
+                        user_id: <%= current_user.id %>,
+                        latitude: data.coords.latitude,
+                        longitude: data.coords.longitude
+                    });
+                }, function error(msg) {
+                    $("#error").html(msg);
+                    console.log(msg);
+                },
+                {
+                    timeout: 20000,
+                    maximumAge: 900,
+                    enableHighAccuracy: true
+                });
+            }
+    }
+
+    function handleLocationError(browserHasGeolocation, infoWindow, pos) {
+        infoWindow.setPosition(pos);
+        infoWindow.setContent(browserHasGeolocation ?
+            'Error: The Geolocation service failed.' :
+            'Error: Your browser doesn\'t support geolocation.');
     }
 
 </script>
-<script async defer
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDqvvsundfpZo9u4bL_3CA1Ws2KTZMRAq0&callback=initMap">
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDqvvsundfpZo9u4bL_3CA1Ws2KTZMRAq0&callback=initMap"
+        async defer>
 </script>
