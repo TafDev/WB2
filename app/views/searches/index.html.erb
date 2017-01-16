@@ -9,11 +9,44 @@
 		</div>
 		<div class="twelve wide column">
 			<h1>Search Results</h1>
-			<div class="ui segment">
+			<div class="ui top attached tabular menu">
+				<a id="list"class="item active" data-tab="list">list view</a>
+				<a id="mapView" class="item" data-tab="mapView">map view</a>
+			</div>
+			<div class="ui bottom attached tab segment active" data-tab="list">
 				<div id="searches">
 					<%= render @profiles  %>
 				</div>
 			</div>
+			<div class="ui bottom attached tab segment" data-tab="mapView">
+				<div id='map'></div>
+			</div>
 		</div>
 	</div>
 </div>
+
+<script type="text/javascript" charset="utf-8">
+
+
+    function initMap() {
+        var latLng = {lat:  51.509865, lng: -0.118092};
+        var map = new google.maps.Map(document.getElementById('map'), {
+            zoom: 16,
+            center: latLng
+        });
+        var tab = $('#mapView');
+        tab.one('click', function(){
+            google.maps.event.trigger(map, 'resize');
+            map.setCenter(latLng)
+        });
+        var marker = new google.maps.Marker({
+            position: latLng,
+            map: map
+        });
+        map.refresh()
+    }
+
+</script>
+<script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDqvvsundfpZo9u4bL_3CA1Ws2KTZMRAq0&callback=initMap">
+</script>

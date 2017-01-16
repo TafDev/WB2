@@ -18,6 +18,15 @@
 @import "profiles";
 @import "dropzone/dropzone";
 //$font-url: "https://fonts.googleapis.com/css?family=Dosis";
+#map {
+  height: 50em;
+  width: 100%;
+}
+
+canvas {
+  height: 100%;
+  //width: 100%;
+}
 
 #login-form {
   border-radius: 0;
