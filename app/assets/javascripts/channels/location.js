@@ -8,7 +8,14 @@ App.location = App.cable.subscriptions.create("LocationChannel", {
     received: function(data) {
         console.log(data.latitude, data.longitude);
         latLng = new google.maps.LatLng(data.latitude, data.longitude);
-        marker.setPosition(latLng);
+        var marker = findMarker(data.user_id);
+        if (marker) {
+            marker.setPosition(latLng)
+        }
+        else {
+            addMarker(latLng, "placeholder", data.user_id);
+        }
+        // marker.setPosition(latLng);
     },
 
     create: function (data) {

@@ -1,6 +1,12 @@
 <div class="banner">
 	<p>Workout Buddy Search</p>
 </div>
+<div class="ui inline cookie nag">
+  <span class="title">
+    In order to give you the most accurate results we automatically request your location. This helps us show you users closest to you.
+  </span>
+	<i class="close icon"></i>
+</div>
 <br>
 <div class="ui container">
 	<div class="ui grid">
@@ -28,19 +34,67 @@
 <script type="text/javascript" charset="utf-8">
 
     var map;
-    var marker;
+    var markers = [];
     var position = <%= {lat: current_user.profile.latitude , lng: current_user.profile.longitude }.to_json.html_safe %>;
+    var users = [
+        <%= @profiles.map do |profile|
+	        unless profile.longitude.nil?
+						"{id: #{profile.id}, latitude: #{profile.latitude}, longitude: #{profile.longitude}}"
+					end
+			 end.join(", ").html_safe %>];
+
+    function createId(id) {
+		    return "marker-" + id.toString();
+    }
+
+
+    //searching through the markers array to find a matching id
+    //it will return google maps marker object
+
+    function findMarker(userId) {
+		    var marker;
+		    for (var i = 0; i < markers.length; ++i) {
+		        if (markers[i].id == createId(userId)) {
+		            marker = markers[i].marker;
+		            return marker;
+		        }
+		    }
+    }
+
+    function addMarker(position, content, userId) {
+        var marker = new google.maps.Marker({
+            id: createId(userId),
+            position: position,
+            map: map,
+            icon: "assets/markers/paragon-1-green.png"
+        });
+        marker.addListener('click', function() {
+            infowindow.open(map, marker);
+        });
+        var infowindow = new google.maps.InfoWindow({
+            content: content
+        });
+        //adding marker object to markers array
+        markers.push({
+            id: createId(userId),
+            marker: marker
+        });
+    }
+
 
     function initMap() {
-        var map = new google.maps.Map(document.getElementById('map'), {
+
+        map = new google.maps.Map(document.getElementById('map'), {
 						center: position,
             zoom: 16
         });
-
-        marker = new google.maps.Marker({
-            position: position,
-            map: map
+        users.forEach(function (user) {
+            var position = {lat: user.latitude, lng: user.longitude};
+            addMarker(position, "User", user.id);
         });
+
+
+        addMarker(position, "You are here", <%= current_user.id %> );
 
         var tab = $('#mapView');
         tab.one('click', function(){
@@ -48,15 +102,10 @@
             map.setCenter(position)
         });
 
-//        var infoWindow = new google.maps.InfoWindow({map: map});
-
-        // Try HTML5 geolocation.
         var geo = navigator.geolocation;
         if (geo) {
             geo.getCurrentPosition(function(data) {
                 var pos = new google.maps.LatLng(data.latitude, data.longitude);
-//                infoWindow.setPosition(pos);
-//                infoWindow.setContent('You are here');
 //                map.setCenter(pos);
                     App.location.create({
                         user_id: <%= current_user.id %>,
@@ -81,6 +130,10 @@
             'Error: The Geolocation service failed.' :
             'Error: Your browser doesn\'t support geolocation.');
     }
+
+    $('.cookie.nag')
+        .nag('show')
+    ;
 
 </script>
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDqvvsundfpZo9u4bL_3CA1Ws2KTZMRAq0&callback=initMap"
