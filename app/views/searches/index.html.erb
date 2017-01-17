@@ -39,7 +39,8 @@
     var users = [
         <%= @profiles.map do |profile|
 	        unless profile.longitude.nil?
-						"{userId: #{profile.user.id}, id: #{profile.id}, latitude: #{profile.latitude}, longitude: #{profile.longitude}}"
+	          profile1 = render(profile).to_json.html_safe
+						"{userId: #{profile.user.id}, id: #{profile.id}, profile: #{profile1}, latitude: #{profile.latitude}, longitude: #{profile.longitude}}"
 					end
 			 end.join(", ").html_safe %>];
 
@@ -89,15 +90,15 @@
             zoom: 16
         });
         users.forEach(function (user) {
+            var content = user.profile;
             var icon1 = "assets/markers/paragon-1-green.png";
             var icon2 = "assets/markers/paragon-1-red.png";
             var position1 = {lat: user.latitude, lng: user.longitude};
             if (user.userId == <%= current_user.id %>) {
-                addMarker(position1, "You are here", <%= current_user.id %>, icon1);
+                addMarker(position1, content, <%= current_user.id %>, icon1);
             }
             else {
-                console.log(user);
-                addMarker(position1, "user" + user.userId, user.id, icon2);
+                addMarker(position1, content, user.id, icon2);
             }
         });
 
