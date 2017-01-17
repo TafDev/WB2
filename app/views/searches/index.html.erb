@@ -39,7 +39,7 @@
     var users = [
         <%= @profiles.map do |profile|
 	        unless profile.longitude.nil?
-						"{id: #{profile.id}, latitude: #{profile.latitude}, longitude: #{profile.longitude}}"
+						"{userId: #{profile.user.id}, id: #{profile.id}, latitude: #{profile.latitude}, longitude: #{profile.longitude}}"
 					end
 			 end.join(", ").html_safe %>];
 
@@ -61,12 +61,12 @@
 		    }
     }
 
-    function addMarker(position, content, userId) {
+    function addMarker(position, content, userId, icon) {
         var marker = new google.maps.Marker({
             id: createId(userId),
             position: position,
             map: map,
-            icon: "assets/markers/paragon-1-green.png"
+            icon: icon
         });
         marker.addListener('click', function() {
             infowindow.open(map, marker);
@@ -89,12 +89,20 @@
             zoom: 16
         });
         users.forEach(function (user) {
-            var position = {lat: user.latitude, lng: user.longitude};
-            addMarker(position, "User", user.id);
+            var icon1 = "assets/markers/paragon-1-green.png";
+            var icon2 = "assets/markers/paragon-1-red.png";
+            var position1 = {lat: user.latitude, lng: user.longitude};
+            if (user.userId == <%= current_user.id %>) {
+                addMarker(position1, "You are here", <%= current_user.id %>, icon1);
+            }
+            else {
+                console.log(user);
+                addMarker(position1, "user" + user.userId, user.id, icon2);
+            }
         });
 
 
-        addMarker(position, "You are here", <%= current_user.id %> );
+//        addMarker(position, "You are here", <%#= current_user.id %> );
 
         var tab = $('#mapView');
         tab.one('click', function(){
